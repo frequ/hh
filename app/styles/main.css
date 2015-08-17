@@ -1,0 +1,237 @@
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+  display: none !important;
+}
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+body {
+  padding: 0;
+}
+#loader {
+  text-align: center;
+}
+.header .navbar-header {
+  display: inline;
+  margin-left: 13%;
+}
+.huge {
+  font-size: 200%;
+}
+.btn-category {
+  padding: 40px 0;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+.btn-event {
+  padding: 20px 0;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.btn-lg {
+  font-size: 1.5em;
+}
+a:hover {
+  text-decoration: none;
+}
+.lead .add-bottom-margin {
+  margin-bottom: 30px;
+}
+.modal-dialog {
+  width: 90%;
+  margin: 0 auto;
+}
+.modal-dialog .modal-header .modal-title {
+  margin-left: 13%;
+}
+.modal-dialog .modal-body p {
+  font-size: 1.5em;
+}
+.modal-dialog .modal-body p img {
+  width: 100%;
+}
+.modal-dialog .modal-body p ul lh {
+  font-weight: bold;
+}
+.modal-dialog .modal-body p ul li:last-child {
+  margin-bottom: 20px;
+}
+/* Roulette stuff */
+#reel {
+  overflow: hidden;
+  height: 406px;
+  border: 5px solid black;
+  position: relative;
+  border: 10px solid;
+  border-color: #777 #999 #666 #999;
+  border-radius: 3px;
+  background-color: #d2ac2b;
+  margin-bottom: 20px;
+}
+#reel .shadow {
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  z-index: 999;
+}
+#reel .top-shadow {
+  /*linear-gradient*/
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(rgba(0, 0, 0, 0)));
+  background: -webkit-linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0));
+  background: -moz-linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0));
+  background: -o-linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0));
+  background: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0));
+}
+#reel .bottom-shadow {
+  margin-top: 235px;
+  /*linear-gradient*/
+  background: -webkit-gradient(linear, left bottom, left top, from(#000000), to(rgba(0, 0, 0, 0)));
+  background: -webkit-linear-gradient(to top, #000000, rgba(0, 0, 0, 0));
+  background: -moz-linear-gradient(to top, #000000, rgba(0, 0, 0, 0));
+  background: -o-linear-gradient(to top, #000000, rgba(0, 0, 0, 0));
+  background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0));
+}
+#reel .winning-line {
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: red;
+  margin-top: 193px;
+  z-index: 1;
+  text-align: center;
+}
+#reel .spinner {
+  position: absolute;
+  width: 100%;
+  margin-top: -848px;
+}
+#reel button {
+  display: block;
+  width: 95%;
+  height: 75px;
+  margin: 2px auto;
+  background-color: whitesmoke;
+  border: 2px solid gray;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.8em;
+}
+#reel .btn-win {
+  background-color: #d2ac2b;
+  -webkit-transform: translateZ(0);
+  -webkit-animation: casino 6s;
+  font-size: 200%;
+  font-weight: bold;
+  line-height: 1;
+}
+.btn-spin {
+  font-size: 1.8em;
+  padding: 20px 0;
+}
+@-webkit-keyframes casino {
+  0% {
+    background: #d2ac2b;
+  }
+  15% {
+    background: gold;
+  }
+  30% {
+    background: #d2ac2b;
+  }
+  45% {
+    background: gold;
+  }
+  60% {
+    background: #d2ac2b;
+  }
+  75% {
+    background: gold;
+  }
+  90% {
+    background: #d2ac2b;
+  }
+  100% {
+    background: gold;
+  }
+}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.modal-dialog .modal-body p .scroll-img {
+  display: block;
+  width: 100%;
+}
+.modal-dialog .modal-body p .scroll-img img {
+  width: 100%;
+}
+/* Custom page header */
+/* Make the masthead heading the same height as the navigation */
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+  .modal-dialog .modal-body p .scroll-img img {
+    width: 50%;
+    float: left;
+    padding-bottom: 20px;
+  }
+}

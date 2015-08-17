@@ -1,0 +1,15 @@
+
+    <p ng-init="getStaticContent()" class="lead">Valitse kategorioista mieluinen ja löydä tekemistä hetkeen</p>
+
+    <div class="row" ng-repeat="mainCategories in splitMainCategories">
+        <div class="col-md-4" ng-repeat="mainCategory in mainCategories">
+            <!-- maybe input type button to work with ng-model -->
+            <a ng-href="#/category/{{mainCategory.id}}">
+                <button class="btn btn-category btn-success btn-block btn-lg">{{mainCategory.name}}</button>
+            </a>
+
+        </div>
+    </div>
+
+    <hr/>
+    <p class="lead huge">Tai kokeile <a class="btn-lg" href="#/ruletti">elämysrulettia!</a></p>

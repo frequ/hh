@@ -1,0 +1,28 @@
+<button class="btn btn-default btn-lg" ng-click="back()">Takaisin</button>
+<h3>{{eventsName}}</h3>
+<p class="lead" ng-bind-html="eventsLead"></p>
+
+<div class="row" ng-hide="hasSubcategories">
+    <div class="col-md-6" ng-repeat="event in events">
+        <a href="">
+            <button class="btn btn-event btn-success btn-block btn-lg" ng-click="openModal(event)">{{event.name}}</button>
+        </a>
+
+    </div>
+</div>
+
+<div class="row" ng-show="hasSubcategories">
+    <div class="col-md-6" ng-repeat="subcategory in subcategories">
+        <a href="">
+            <button class="btn btn-event btn-success btn-block btn-lg" ng-click="selectSubCategory(subcategory)">{{subcategory.name}}</button>
+        </a>
+
+    </div>
+</div>
+
+<div id="loader" class="ng-hide" ng-show="req.$$state.pending">
+    <img class="ajax-loader"
+         width="200"
+         height="200"
+         src="images/spinner.gif" />
+  </div>
