@@ -30,29 +30,34 @@
         "belongsTo": "Perinteet ja historian havinaa"
     },{
         "name": "Näin teet vihdan tai vastan",
-        "content": "<a target=\"_blank\" href=\"http://areena.yle.fi/1-2874211\"><button class=\"btn btn-lg btn-primary btn-block\">Katso YLE-areenasta</button></a>",
+        "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa"
+        "belongsTo": "Perinteet ja historian havinaa",
+        "skipModalTo": "http://areena.yle.fi/1-2874211"
     },{
         "name": "Saunominen",
-        "content": "<a target=\"_blank\" href=\"http://areena.yle.fi/1-2214411\"><button class=\"btn btn-lg btn-primary btn-block\">Katso YLE-areenasta</button></a>",
+        "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa"
+        "belongsTo": "Perinteet ja historian havinaa",
+        "skipModalTo": "http://areena.yle.fi/1-2214411"
     },{
         "name": "Postiautolla läpi suomen 1960-luvulla",
-        "content": "<a target=\"_blank\" href=\"http://yle.fi/aihe/artikkeli/2010/10/13/matka-lapi-suomen\"><button class=\"btn btn-lg btn-primary btn-block\">Katso YLE-areenasta</button></a>",
+        "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa"
+        "belongsTo": "Perinteet ja historian havinaa",
+        "skipModalTo": "http://yle.fi/aihe/artikkeli/2010/10/13/matka-lapi-suomen"
     },{
         "name": "Postiautolla läpi kesäisen keski-suomen 1960-luvulla",
-        "content": "<a target=\"_blank\" href=\"http://yle.fi/aihe/artikkeli/2015/03/10/postiautolla-halki-kesaisen-keski-suomen\"><button class=\"btn btn-lg btn-primary btn-block\">Katso YLE-areenasta</button></a>",
+        "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa"
+        "belongsTo": "Perinteet ja historian havinaa",
+        "skipModalTo": "http://yle.fi/aihe/artikkeli/2015/03/10/postiautolla-halki-kesaisen-keski-suomen"
     },{
         "name": "Postiauton ikkunasta Pohjanmaa 1970-luvulla: ",
-        "content": "<a target=\"_blank\" href=\"http://yle.fi/aihe/artikkeli/2013/05/02/pohjanmaata-postiauton-ikkunasta-1970-luvulla\"><button class=\"btn btn-lg btn-primary btn-block\">Katso YLE-areenasta</button></a>",
+        "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa"
+        "belongsTo": "Perinteet ja historian havinaa",
+        "skipModalTo": "http://yle.fi/aihe/artikkeli/2013/05/02/pohjanmaata-postiauton-ikkunasta-1970-luvulla"
     },{
         "name": "Metsästysharrastuksesta",
         "content": "Suomalaiskansalliseen perinteeseen kuuluvan metsästysharrastuksen turvaamiseksi tarvitaan metsästyksen valvontaa. Tämä video valottaa riistanhoitoyhdistysten metsästyksenvartijoiden valintaa, koulutusta ja toimenkuvaa sekä yhteistyötä eri viranomaisten kanssa.",
@@ -191,13 +196,15 @@
         "belongsTo": "Taide ja kulttuuri"
     },{
         "name": "Lasse Viren -selostus (70-luvulta)",
-        "content": "<a target=\"_blank\" href=\"http://yle.fi/aihe/artikkeli/2009/03/30/lasse-viren-ja-10-000-mn-draama-munchenissa\"><button class=\"btn btn-lg btn-primary btn-block\">Katso YLE-areenasta</button></a>",
+        "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Urheilu"
+        "belongsTo": "Urheilu",
+        "skipModalTo": "http://yle.fi/aihe/artikkeli/2009/03/30/lasse-viren-ja-10-000-mn-draama-munchenissa"
     },{
         "name": "MM-95",
-        "content": "<a target=\"_blank\" href=\"http://yle.fi/aihe/artikkeli/2007/05/02/se-siina\"><button class=\"btn btn-lg btn-primary btn-block\">Katso YLE-areenasta</button></a>",
+        "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Urheilu"
+        "belongsTo": "Urheilu",
+        "skipModalTo": "http://yle.fi/aihe/artikkeli/2007/05/02/se-siina"
     }]
 }

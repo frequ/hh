@@ -4,8 +4,11 @@
 
 <div class="row" ng-hide="hasSubcategories">
     <div class="col-md-6" ng-repeat="event in events">
-        <a href="">
-            <button class="btn btn-event btn-success btn-block btn-lg" ng-click="openModal(event)">{{event.name}}</button>
+        <a ng-if="!event.skipModalTo" href="">
+            <button  class="btn btn-event btn-default btn-block btn-lg" ng-click="openModal(event)">{{event.name}}</button>
+        </a>
+        <a ng-if="event.skipModalTo" href="">
+            <button class="btn btn-event btn-default btn-block btn-lg" ng-click="openUrl(event.skipModalTo)">{{event.name}}</button>
         </a>
 
     </div>
@@ -14,7 +17,7 @@
 <div class="row" ng-show="hasSubcategories">
     <div class="col-md-6" ng-repeat="subcategory in subcategories">
         <a href="">
-            <button class="btn btn-event btn-success btn-block btn-lg" ng-click="selectSubCategory(subcategory)">{{subcategory.name}}</button>
+            <button class="btn btn-event btn-default btn-block btn-lg" ng-click="selectSubCategory(subcategory)">{{subcategory.name}}</button>
         </a>
 
     </div>

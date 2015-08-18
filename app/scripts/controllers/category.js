@@ -36,6 +36,13 @@ angular.module('hhApp')
         modalProvider.openModal(event);
     };
 
+    $scope.openUrl = function(url){
+        if( url && url.length > 0 ){
+			var win = $window.open(url, '_blank');
+			win.focus();
+		}
+    };
+
     $scope.selectSubCategory = function(subcategory){
 
         $scope.selectedSubCategory = subcategory;
