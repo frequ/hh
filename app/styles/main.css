@@ -18,17 +18,35 @@ body {
 #loader {
   text-align: center;
 }
-.header .navbar-header {
-  display: inline;
-  margin-left: 13%;
+.header {
+  margin: 0 0 30px 0;
+  border-top: 7px solid #002366;
+  border-bottom: 4px solid #002366;
 }
-.huge {
-  font-size: 200%;
+.header .navbar {
+  background-color: white;
+  margin-bottom: 0;
+}
+.header .navbar-header {
+  margin-left: 175px;
+}
+.header .navbar-header .navbar-brand {
+  line-height: 30px;
 }
 .btn-category {
   padding: 40px 0;
   margin-bottom: 10px;
   font-size: 1.3em;
+}
+.btn-default {
+  color: #002366;
+  border: 2px solid #002366;
+  background-color: #f2f2f2;
+}
+.btn-default:hover {
+  background-color: white;
+  border: 2px solid #002366;
+  color: #002366;
 }
 .btn-event {
   padding: 20px 0;
@@ -39,6 +57,16 @@ body {
 }
 .btn-lg {
   font-size: 1.5em;
+}
+.btn-roulette {
+  background-color: rgba(210, 172, 43, 0.7);
+  color: #002366;
+  border: 2px solid #002366;
+}
+.btn-roulette:hover {
+  background-color: rgba(210, 172, 43, 0.7);
+  color: #002366;
+  border: 2px solid #002366;
 }
 a:hover {
   text-decoration: none;
@@ -51,7 +79,7 @@ a:hover {
   margin: 0 auto;
 }
 .modal-dialog .modal-header .modal-title {
-  margin-left: 13%;
+  margin-left: 125px;
 }
 .modal-dialog .modal-body p {
   font-size: 1.5em;
@@ -67,6 +95,9 @@ a:hover {
 }
 /* Roulette stuff */
 #reel {
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
   overflow: hidden;
   height: 406px;
   border: 5px solid black;
@@ -104,6 +135,7 @@ a:hover {
   background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0));
 }
 #reel .winning-line {
+  -webkit-transform: translateZ(0);
   position: absolute;
   height: 2px;
   width: 100%;
@@ -116,6 +148,9 @@ a:hover {
   position: absolute;
   width: 100%;
   margin-top: -848px;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  overflow: hidden;
 }
 #reel button {
   display: block;
@@ -129,12 +164,8 @@ a:hover {
   font-size: 1.8em;
 }
 #reel .btn-win {
-  background-color: #d2ac2b;
   -webkit-transform: translateZ(0);
   -webkit-animation: casino 6s;
-  font-size: 200%;
-  font-weight: bold;
-  line-height: 1;
 }
 .btn-spin {
   font-size: 1.8em;
@@ -187,6 +218,7 @@ h1 {
   margin-bottom: 0;
   line-height: 40px;
   padding-bottom: 19px;
+  color: #d2ac2b;
 }
 /* Custom page footer */
 .footer {

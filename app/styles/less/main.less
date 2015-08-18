@@ -1,6 +1,13 @@
 //out: ../main.css
 
 @mssGold100: rgba(210,172,43,1);
+@mssGold90: rgba(210,172,43,0.9);
+@mssGold70: rgba(210,172,43,0.7);
+@mssGold70noOpa: rgba(223.5, 196.9, 106.6 ,1);
+@mssBlue100: rgba(0,35,102,1);
+@mssLightBlueBg: #f2f2f2;
+@pushRightMargin: 125px;
+@navbarPushRightMargin: 175px;
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
@@ -23,21 +30,54 @@ body {
 }
 
 .header{
+    margin: 0 0 30px 0;
+    border-top: 7px solid @mssBlue100;
+    border-bottom: 4px solid @mssBlue100;
+
+    .navbar{
+        background-color: white;
+        margin-bottom: 0;
+
+    }
+
     .navbar-header{
-        display: inline;
-        margin-left: 13%;
+        margin-left: @navbarPushRightMargin;
+
+        .navbar-brand{
+            line-height: 30px;
+        }
+
     }
 }
 
-.huge{
-    font-size: 200%;
-}
+// .huge{
+//     font-size: 200%;
+//     a{
+//         color: @mssBlue100;
+//         padding-top: 20px;
+//         &:hover{
+//             text-decoration: underline;
+//         }
+//     }
+// }
 
 .btn-category{
     padding: 40px 0;
     margin-bottom: 10px;
     font-size: 1.3em;
+}
 
+
+
+.btn-default{
+    color: @mssBlue100;
+    border: 2px solid @mssBlue100;
+    background-color: @mssLightBlueBg;
+    &:hover{
+        background-color: white;
+        border: 2px solid @mssBlue100;
+        color: @mssBlue100;
+    }
 }
 
 .btn-event{
@@ -50,6 +90,17 @@ body {
 
 .btn-lg, {
     font-size: 1.5em;
+}
+
+.btn-roulette{
+    background-color: @mssGold70;
+    color: @mssBlue100;
+    border: 2px solid @mssBlue100;
+    &:hover{
+        background-color: @mssGold70;
+        color: @mssBlue100;
+        border: 2px solid @mssBlue100;
+    }
 }
 
 a:hover{
@@ -65,7 +116,7 @@ a:hover{
     margin: 0 auto;
 
     .modal-header .modal-title{
-        margin-left: 13%;
+        margin-left: @pushRightMargin;
     }
 
     .modal-body p{
@@ -90,6 +141,10 @@ a:hover{
 /* Roulette stuff */
 
 #reel{
+    -webkit-transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+
     overflow: hidden; //debug
     height: 406px;
     border: 5px solid black;
@@ -133,6 +188,7 @@ a:hover{
 	}
 
     .winning-line{
+        -webkit-transform: translateZ(0);
         position: absolute;
         height: 2px;
         width: 100%;
@@ -146,6 +202,9 @@ a:hover{
         position: absolute;
         width: 100%;
         margin-top: -848px;
+        -webkit-transform: translateZ(0);
+		-webkit-backface-visibility: hidden;
+		overflow: hidden;
 
     }
 
@@ -162,12 +221,12 @@ a:hover{
     }
 
     .btn-win{
-        background-color: @mssGold100;
+        // background-color: @mssGold100;
 		-webkit-transform: translateZ(0);
 		-webkit-animation: casino 6s;
-        font-size: 200%;
-        font-weight: bold;
-        line-height: 1;
+        // font-size: 200%;
+        // font-weight: bold;
+        // line-height: 1;
 	}
 }
 
@@ -214,6 +273,7 @@ h1 {
   margin-bottom: 0;
   line-height: 40px;
   padding-bottom: 19px;
+  color: @mssGold100;
 }
 
 /* Custom page footer */
