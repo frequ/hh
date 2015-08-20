@@ -115,8 +115,18 @@ a:hover{
     width: 90%;
     margin: 0 auto;
 
-    .modal-header .modal-title{
-        margin-left: @pushRightMargin;
+    .modal-content{
+        border-top: 7px solid;
+        border-color: @mssBlue100;
+    }
+
+    .modal-header{
+        padding: 15px 15px 13px 15px;
+        border-bottom: 4px solid @mssBlue100;
+
+        .modal-title{
+            margin-left: @pushRightMargin;
+        }
     }
 
     .modal-body p{
@@ -139,21 +149,26 @@ a:hover{
 
 
 /* Roulette stuff */
-
-#reel{
-    -webkit-transform: translateZ(0);
-	-webkit-backface-visibility: hidden;
-	-webkit-perspective: 1000;
-
-    overflow: hidden; //debug
-    height: 406px;
-    border: 5px solid black;
+#canvas-reel{
+    display: block;
     position: relative;
+    height: 350px;
     border: 10px solid;
 	border-color: #777 #999 #666 #999;
-	border-radius: 3px;
-	background-color: @mssGold100;
+    background-color: @mssGold100;
     margin-bottom: 20px;
+    overflow: hidden;
+
+    .winning-line{
+        -webkit-transform: translateZ(0);
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        background-color: red;
+        margin-top: 170px;
+        z-index: 1;
+        text-align: center;
+    }
 
     .shadow{
         -webkit-transform: translateZ(0);
@@ -161,7 +176,7 @@ a:hover{
 		-webkit-perspective: 1000;
 		position: absolute;
         width: 100%;
-		height: 150px;
+		height: 110px;
         z-index: 999;
     }
 
@@ -176,7 +191,7 @@ a:hover{
 	}
 
 	.bottom-shadow{
-		margin-top: 235px;
+		margin-top: 220px;
 
 		/*linear-gradient*/
 		background:-webkit-gradient(linear,left bottom,left top,from(rgba(0, 0, 0, 1)),to(rgba(0, 0, 0, 0)));
@@ -187,66 +202,8 @@ a:hover{
 
 	}
 
-    .winning-line{
-        -webkit-transform: translateZ(0);
-        position: absolute;
-        height: 2px;
-        width: 100%;
-        background-color: red;
-        margin-top: 193px;
-        z-index: 1;
-        text-align: center;
-    }
 
-    .spinner{
-        position: absolute;
-        width: 100%;
-        margin-top: -848px;
-        -webkit-transform: translateZ(0);
-		-webkit-backface-visibility: hidden;
-		overflow: hidden;
-
-    }
-
-    button{
-        display: block;
-        width: 95%;
-        height: 75px;
-        margin: 2px auto;
-        background-color: whitesmoke;
-        border: 2px solid gray;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        font-size: 1.8em;
-    }
-
-    .btn-win{
-        // background-color: @mssGold100;
-		-webkit-transform: translateZ(0);
-		-webkit-animation: casino 6s;
-        // font-size: 200%;
-        // font-weight: bold;
-        // line-height: 1;
-	}
 }
-
-.btn-spin{
-    font-size: 1.8em;
-    padding: 20px 0;
-}
-
-
-@-webkit-keyframes casino {
-    0%   {background: @mssGold100;}
-    15%  {background: gold;}
-    30%  {background: @mssGold100;}
-    45%  {background: gold;}
-    60%  {background: @mssGold100;}
-    75%  {background: gold;}
-    90%  {background: @mssGold100;}
-    100% {background: gold;}
-}
-
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
