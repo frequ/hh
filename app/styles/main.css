@@ -6,32 +6,37 @@
 .x-ng-cloak {
   display: none !important;
 }
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
 body {
   padding: 0;
+  margin: 0;
+}
+body a:hover {
+  text-decoration: none;
+}
+.lead {
+  font-size: 21px;
+}
+.lead .add-bottom-margin {
+  margin-bottom: 30px;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+  color: #d2ac2b;
 }
 #loader {
   text-align: center;
 }
-.header {
-  margin: 0 0 30px 0;
-  border-top: 7px solid #002366;
-  border-bottom: 4px solid #002366;
+.browsehappy {
+  margin: 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.4em;
 }
-.header .navbar {
-  background-color: white;
-  margin-bottom: 0;
-}
-.header .navbar-header {
-  margin-left: 175px;
-}
-.header .navbar-header .navbar-brand {
-  line-height: 30px;
+.browsehappy a:hover {
+  text-decoration: underline;
 }
 .btn-category {
   padding: 40px 0;
@@ -68,40 +73,6 @@ body {
   color: #002366;
   border: 2px solid #002366;
 }
-a:hover {
-  text-decoration: none;
-}
-.lead .add-bottom-margin {
-  margin-bottom: 30px;
-}
-.modal-dialog {
-  width: 90%;
-  margin: 0 auto;
-}
-.modal-dialog .modal-content {
-  border-top: 7px solid;
-  border-color: #002366;
-}
-.modal-dialog .modal-header {
-  padding: 15px 15px 13px 15px;
-  border-bottom: 4px solid #002366;
-}
-.modal-dialog .modal-header .modal-title {
-  margin-left: 125px;
-}
-.modal-dialog .modal-body p {
-  font-size: 1.5em;
-}
-.modal-dialog .modal-body p img {
-  width: 100%;
-}
-.modal-dialog .modal-body p ul lh {
-  font-weight: bold;
-}
-.modal-dialog .modal-body p ul li:last-child {
-  margin-bottom: 20px;
-}
-/* Roulette stuff */
 #canvas-reel {
   display: block;
   position: relative;
@@ -148,12 +119,26 @@ a:hover {
   background: -o-linear-gradient(to top, #000000, rgba(0, 0, 0, 0));
   background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0));
 }
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
+.modal-dialog {
+  width: 90%;
+  margin: 0 auto;
+}
+.modal-dialog .modal-content {
+  border-top: 7px solid;
+  border-color: #002366;
+}
+.modal-dialog .modal-header {
+  padding: 15px 15px 13px 15px;
+  border-bottom: 4px solid #002366;
+}
+.modal-dialog .modal-header .modal-title {
+  margin-left: 125px;
+}
+.modal-dialog .modal-body p {
+  font-size: 1.5em;
+}
+.modal-dialog .modal-body p img {
+  width: 100%;
 }
 .modal-dialog .modal-body p .scroll-img {
   display: block;
@@ -162,56 +147,31 @@ a:hover {
 .modal-dialog .modal-body p .scroll-img img {
   width: 100%;
 }
-/* Custom page header */
-/* Make the masthead heading the same height as the navigation */
-h1 {
-  margin-top: 0;
+.modal-dialog .modal-body p ul lh {
+  font-weight: bold;
+}
+.modal-dialog .modal-body p ul li:last-child {
+  margin-bottom: 20px;
+}
+.header {
+  margin: 0 0 30px 0;
+  border-top: 7px solid #002366;
+  border-bottom: 4px solid #002366;
+  padding: 0 15px;
+}
+.header .navbar {
+  background-color: white;
   margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
-  color: #d2ac2b;
+  border: 0;
 }
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
+.header .navbar-header {
+  margin-left: 175px;
 }
-.container-narrow > hr {
-  margin: 30px 0;
-}
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
-}
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
+.header .navbar-header .navbar-brand {
+  line-height: 30px;
 }
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  /* Space out the masthead */
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
   .modal-dialog .modal-body p .scroll-img img {
     width: 50%;
     float: left;
