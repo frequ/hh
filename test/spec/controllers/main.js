@@ -2,22 +2,34 @@
 
 describe('Controller: MainCtrl', function () {
 
-  // load the controller's module
-  beforeEach(module('yeomanAngularApp'));
+    var $httpBackend, scope;
 
-  var MainCtrl,
-    scope;
+    // load the controller's module
+    beforeEach(module('hhApp'));
 
-  // Initialize the controller and a mock scope
-  beforeEach(inject(function ($controller, $rootScope) {
-    scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
-      $scope: scope
-      // place here mocked dependencies
+    beforeEach(inject(function($injector, $rootScope, $controller){
+
+        // Set up the mock http service responses
+        $httpBackend = $injector.get('$httpBackend');
+        jasmine.getJSONFixtures().fixturesPath='base/app/json';
+
+        $httpBackend.whenGET('json/categories.json').respond(
+            getJSONFixture('categories.json')
+        );
+
+        scope = $rootScope.$new();
+        $controller('MainCtrl', {'$scope': scope});
+
+    }));
+
+    afterEach(function() {
+        $httpBackend.verifyNoOutstandingExpectation();
+        $httpBackend.verifyNoOutstandingRequest();
     });
-  }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(MainCtrl.awesomeThings.length).toBe(3);
-  });
+    it('should get results and should attach an array of arrays (categories) to scope', function(){
+        $httpBackend.flush();
+        expect(scope.splitMainCategories.length).toBe(3);
+    });
+
 });
