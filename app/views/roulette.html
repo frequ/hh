@@ -1,14 +1,13 @@
 <button class="btn btn-default btn-lg" ng-click="back()">Takaisin</button>
 <h3>Elämysruletti</h3>
 
-<div id="reel" ng-init="spinDisabled = false;">
+<div id="canvas-reel">
     <div class="winning-line"></div>
     <div class="shadow top-shadow"></div>
     <div class="shadow bottom-shadow"></div>
-    <div class="spinner">
-        <button ng-repeat="item in items track by $index" class="btn btn-lg">{{item.name}}</button>
-    </div>
+    <canvas id="canvas" width="700" height="1320"></canvas>
 </div>
+
 <button class="btn btn-block btn-lg btn-primary btn-spin"
         ng-disabled="spinDisabled"
         ng-click="spin(); spinDisabled = true;">Käynnistä ruletti!</button>
