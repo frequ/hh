@@ -17,149 +17,166 @@ angular.module('hhApp')
 
     $scope.constructRoulette = function(data){
 
-        //reset
-        $scope.items = [];
-        $scope.spinnerPos = 0;
-        $scope.spinnerSpeed = 15; //fps
-        $scope.spinnerPosVariation = 10;
-        $scope.spinnerSlowingIndex = 0;
-        $scope.spinnerPositiveDirection = false;
+        var SLOT_HEIGTH = 110;
+        var START_OFFSET = -(9*110);
+        var START_SLOT_SPEED = 13;
+        var START_SLOWING_AFTER = 7000;
+        var RANDOM_ITEMS_AMOUNT = 9;
+        var REPEAT_RANDOMS = 4;
 
-        var items = [];
-        var randomIndexesAmount = 8;
-        var repeatItemsToEnd = 8;
-        var randomsArray = [];
-        var i;
+        // Needed for CSS translates
+        var vendor =
+    	    (/webkit/i).test(navigator.appVersion) ? '-webkit' :
+        	(/firefox/i).test(navigator.userAgent) ? '-moz' :
+    	    (/msie/i).test(navigator.userAgent) ? 'ms' :
+        	'opera' in window ? '-o' : '';
 
-        while (randomsArray.length < randomIndexesAmount) {
-            var random = Math.floor(Math.random()*data.length);
-            var found = false;
+        $scope.cssTransform = vendor + '-transform';
 
-            for(i = 0; i < randomsArray.length; i++){
-                if(randomsArray[i] === random){
-                    found = true;
-                    break;
+        var has3d = ('WebKitCSSMatrix' in window && 'm11' in new WebKitCSSMatrix()); // jshint ignore:line
+        $scope.trnOpen = 'translate' + (has3d ? '3d(' : '(');
+        $scope.trnClose = has3d ? ',0)' : ')';
+
+
+        function fitToContainer(canvas){
+            canvas.style.width = '100%';
+            canvas.width = canvas.offsetWidth;
+        }
+
+        function getRandomEvents(){
+            var items = [];
+            var randomsArray = [];
+            var i;
+
+            while (randomsArray.length < RANDOM_ITEMS_AMOUNT) {
+                var random = Math.floor(Math.random()*data.length);
+                var found = false;
+
+                for (i = 0; i < randomsArray.length; i++) {
+                    if (randomsArray[i] === random) {
+                        found = true;
+                        break;
+                    }
+                }
+
+                if (!found) {
+                    randomsArray[randomsArray.length] = random;
                 }
             }
 
-            if(!found) {
-                randomsArray[randomsArray.length] = random;
+            angular.forEach(randomsArray, function(randomIndex){
+                items.push(data[randomIndex]);
+            });
+
+            //repeat items to end of roulette array
+            for (i = 0; i < REPEAT_RANDOMS; i++) {
+                items.push(items[i]);
             }
+
+            return items;
         }
 
-        angular.forEach(randomsArray, function(randomIndex){
-            items.push(data[randomIndex]);
-        });
+        function fillCanvas(items, canvas){
+            var ctx = canvas.getContext('2d');
+            var fullWidth = canvas.width;
 
-        //repeat items to end of roulette array
-        for(i = 0; i < repeatItemsToEnd; i++){
-            items.push(items[i]);
+            for (var i = 0; i < items.length; i++) {
+                ctx.beginPath();
+                ctx.rect(20, i*SLOT_HEIGTH, fullWidth-40, 110);
+                ctx.fillStyle = "#ddd";
+                ctx.fill();
+
+                ctx.lineWidth = 2;
+                ctx.strokeStyle = "#d2ac2b";
+                ctx.stroke();
+                ctx.closePath();
+
+                ctx.beginPath();
+                ctx.font = "30px Arial";
+                ctx.textAlign = "center";
+                ctx.fillStyle = "#000";
+                ctx.fillText(items[i].name, fullWidth/2, i*SLOT_HEIGTH-40);
+                ctx.closePath();
+            }
+
+            $scope.offset = START_OFFSET;
+            $('#canvas').css($scope.cssTransform, $scope.trnOpen + '0px, ' + $scope.offset + 'px' + $scope.trnClose);
         }
 
-        $scope.items = items;
-        //$log.log('roulette items', $scope.items);
+        var canvas = document.getElementById('canvas');
+        fitToContainer(canvas);
 
+        var items = getRandomEvents();
+        fillCanvas(items, canvas);
+
+
+
+        $scope.loop = function(){
+            $scope.slotspeed = START_SLOT_SPEED;
+
+            $scope.gameLoop = $interval(draw, 20);
+
+            $scope.slowTimer = $timeout(function(){
+                $scope.slowInterval = $interval(function(){
+                    if ($scope.slotspeed > 1) {
+                        $scope.slotspeed--;
+                    }
+                }, 500);
+            }, START_SLOWING_AFTER);
+
+        };
+
+        function draw(){
+            var runner = $('#canvas');
+            $scope.offset = $scope.offset + $scope.slotspeed;
+
+            if ($scope.offset >= 0 ) {
+                $scope.offset = -980;
+            }
+
+            if ($scope.slotspeed === 1) {
+                var stopPos = Math.round($scope.offset / SLOT_HEIGTH) * SLOT_HEIGTH;
+
+                if ($scope.offset === stopPos) {
+                    $scope.slotpeed = 0;
+                    stopAll();
+
+                    var winEvent = items[8];
+                    $timeout( function() {
+                        $scope.openModal(winEvent);
+                    }, 1000 );
+                }
+            }
+
+            $(runner).css($scope.cssTransform, $scope.trnOpen + '0px, ' + $scope.offset + 'px' + $scope.trnClose);
+
+        }
     };
 
-
-    function updateSpinnerPosition() {
-        $scope.spinnerPos += $scope.spinnerPosVariation;
-        $('.spinner').css('transform', 'translate(0px, ' + $scope.spinnerPos + 'px)');
-
-        if ($scope.spinnerPos >= 800) {
-            // $interval.cancel($scope.spinner);
-            $scope.spinnerPos = 180;
-        }
+    function stopAll(){
+        $interval.cancel($scope.gameLoop);
+        $interval.cancel($scope.slowInterval);
+        $timeout.cancel($scope.slowTimer);
     }
 
-    function spinnerMove() {
-
-        $scope.spinner = $interval(updateSpinnerPosition, $scope.spinnerSpeed);
-        $scope.slowTimeout = $timeout( startSlowing, 6000);
-
-    }
-
-    function startSlowing() {
-        $scope.slower = $interval(slowdownSpinner, 200);
-    }
-
-    function slowdownSpinner(){
-
-        var changeDirectionArr = [-4, 2, -1, 0];
-
-        if ($scope.spinnerPosVariation === changeDirectionArr[$scope.spinnerSlowingIndex]) {
-            $scope.spinnerPositiveDirection = !$scope.spinnerPositiveDirection;
-            $scope.spinnerSlowingIndex++;
-        }
-
-        if ($scope.spinnerPosVariation === 0 && $scope.spinnerSlowingIndex > 3) {
-            $timeout.cancel($scope.slowTimeout);
-            $interval.cancel($scope.spinner);
-            $interval.cancel($scope.slower);
-
-            var btnH = $('#reel button').outerHeight(true);
-            //var spinnerH = btnH*16;
-
-            var c = (Math.round( Math.floor($scope.spinnerPos)/ btnH )* btnH)-5;
-
-            // the spinner goes c overflow + 4 buttons, so index is as follows
-            var index = Math.round((c+4*btnH) / btnH);
-
-            (function adjustPos(){
-
-                if($scope.spinnerPos > c){
-                    $scope.spinnerPos--;
-                }else{
-                    $scope.spinnerPos++;
-                }
-
-                $('.spinner').css('transform', 'translate(0px, ' + $scope.spinnerPos + 'px)');
-
-                if ($scope.spinnerPos !== c) {
-                    $timeout(adjustPos, 40);
-                }
-
-            })();
-
-            $scope.winner = index;
-
-            $('.spinner button:nth-child('+ $scope.winner +')').addClass('btn-win');
-
-            $timeout( function() {
-                    $scope.openModal($scope.items[$scope.winner-1]);
-                }, 3000 );
-        }
-
-        if ($scope.spinnerPositiveDirection) {
-            $scope.spinnerPosVariation++;
-        }else{
-            $scope.spinnerPosVariation--;
-        }
-
-    }
-
-    function resetRoulette() {
-        //wait that the modal is open so doesnt look funny
-        $log.log('resetting roulette ..');
+    function reset(){
         $timeout(function(){
             $scope.constructRoulette($scope.data);
-            $('.spinner button:nth-child('+ $scope.winner +')').removeClass('btn-win');
-            $('.spinner').css('transform', 'translate(0px, ' + $scope.spinnerPos + 'px)');
             $scope.spinDisabled = false;
         },1000);
-
     }
 
     $scope.spin = function(){
-        spinnerMove();
+        $scope.loop();
     };
 
     $scope.openModal = function(event){
         modalProvider.openModal(event);
-        resetRoulette();
+        reset();
     };
 
     $scope.back = function(){
+        stopAll();
         $window.history.back();
     };
 
