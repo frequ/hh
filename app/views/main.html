@@ -1,5 +1,5 @@
 
-    <p ng-init="getStaticContent()" class="lead">Valitse aiheista mieluista tekemistä</p>
+    <p ng-init="getStaticContent()" class="lead">Valitse aiheista mieluisaa tekemistä</p>
 
     <div class="row" ng-repeat="mainCategories in splitMainCategories">
         <div class="col-md-4" ng-repeat="mainCategory in mainCategories">
@@ -13,7 +13,9 @@
 
     <hr/>
     <div class="row">
-        <a href="#/ruletti" class="col-md-4">
-            <button class="btn btn-category btn-roulette btn-block btn-lg">Kokeile Elämysrulettia</button>
-        </a>
+        <div class="col-md-4">
+            <a href="#/ruletti">
+                <button class="btn btn-category btn-roulette btn-block btn-lg">Kokeile Elämysrulettia</button>
+            </a>
+        </div>
     </div>

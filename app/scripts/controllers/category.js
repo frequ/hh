@@ -10,7 +10,6 @@ angular.module('hhApp')
     $scope.inSubcategoryListing = false;
 
     (function(){
-
         var promise = $scope.req = $http.get('json/'+ $routeParams.categoryId +'.json');
         promise
         .success(function(data){
@@ -24,10 +23,12 @@ angular.module('hhApp')
             $scope.parentEvents = $scope.events = data.events;
             $scope.parentEventsLead = $scope.eventsLead = $sce.trustAsHtml(data.lead);
 
+
+
         })
 
         .error(function(){
-
+            $log.warn('error fetching '+ $routeParams.categoryId +'.json');
         });
 
     })();
