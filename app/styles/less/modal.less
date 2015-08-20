@@ -1,0 +1,48 @@
+//main: main.less
+
+@import "colors";
+
+.modal-dialog{
+    width: 90%;
+    margin: 0 auto;
+
+    .modal-content{
+        border-top: 7px solid;
+        border-color: @mssBlue100;
+    }
+
+    .modal-header{
+        padding: 15px 15px 13px 15px;
+        border-bottom: 4px solid @mssBlue100;
+
+        .modal-title{
+            margin-left: 125px;
+        }
+    }
+
+    .modal-body p{
+        font-size: 1.5em;
+
+        img{
+            width: 100%;
+        }
+
+        .scroll-img{
+            display: block;
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+
+        ul{
+            lh{
+                font-weight: bold;
+            }
+            li:last-child{
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+}
