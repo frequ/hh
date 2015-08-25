@@ -6,7 +6,11 @@
 .x-ng-cloak {
   display: none !important;
 }
+html {
+  height: 100%;
+}
 body {
+  height: 100%;
   padding: 0;
   margin: 0;
 }
@@ -82,42 +86,61 @@ h1 {
   background-color: #d2ac2b;
   margin-bottom: 20px;
   overflow: hidden;
+  z-index: 1;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+}
+#canvas-reel canvas {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  z-index: 1;
 }
 #canvas-reel .winning-line {
   -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
   position: absolute;
   height: 1px;
   width: 100%;
   background-color: red;
-  margin-top: 170px;
-  z-index: 1;
+  z-index: 2;
   text-align: center;
+  top: 170px;
 }
-#canvas-reel .shadow {
-  -webkit-transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000;
+.shadow {
   position: absolute;
   width: 100%;
   height: 110px;
-  z-index: 999;
-}
-#canvas-reel .top-shadow {
-  /*linear-gradient*/
+  z-index: 2;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  background-image: url('../images/gradient.png');
+  background-repeat: repeat-x;
   background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(rgba(0, 0, 0, 0)));
-  background: -webkit-linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0));
-  background: -moz-linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0));
-  background: -o-linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0));
-  background: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0));
+  background: -webkit-linear-gradient(top, #000000, rgba(0, 0, 0, 0));
+  background: -moz-linear-gradient(top, #000000, rgba(0, 0, 0, 0));
+  background: -ms-linear-gradient(top, #000000, rgba(0, 0, 0, 0));
+  background: -o-linear-gradient(top, #000000, rgba(0, 0, 0, 0));
+  -webkit-perspective: 1000;
 }
-#canvas-reel .bottom-shadow {
-  margin-top: 220px;
-  /*linear-gradient*/
-  background: -webkit-gradient(linear, left bottom, left top, from(#000000), to(rgba(0, 0, 0, 0)));
-  background: -webkit-linear-gradient(to top, #000000, rgba(0, 0, 0, 0));
-  background: -moz-linear-gradient(to top, #000000, rgba(0, 0, 0, 0));
-  background: -o-linear-gradient(to top, #000000, rgba(0, 0, 0, 0));
-  background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0));
+.top-shadow {
+  top: 0;
+}
+.bottom-shadow {
+  top: 220px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 .modal-dialog {
   width: 90%;
@@ -128,7 +151,7 @@ h1 {
   border-color: #002366;
 }
 .modal-dialog .modal-header {
-  padding: 15px 15px 13px 15px;
+  padding: 15px 15px 7px 15px;
   border-bottom: 4px solid #002366;
 }
 .modal-dialog .modal-header .modal-title {
