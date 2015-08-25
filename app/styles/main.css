@@ -32,6 +32,8 @@ h1 {
 }
 #loader {
   text-align: center;
+  height: 285px;
+  margin-top: 85px;
 }
 .browsehappy {
   margin: 0;
@@ -92,6 +94,15 @@ h1 {
   transform: translateZ(0);
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
+}
+#canvas-reel #roulette-loader-text {
+  position: absolute;
+  top: 130px;
+  z-index: 999;
+  color: #000;
+  font-size: 2em;
+  width: 100%;
+  text-align: center;
 }
 #canvas-reel canvas {
   -webkit-transform: translateZ(0);

@@ -4,7 +4,7 @@ angular.module('hhApp')
   .controller('MainCtrl', function ($scope, $http, $log) {
 
       (function(){
-         var promise = $http.get('json/categories.json');
+         var promise = $scope.req = $http.get('json/categories.json');
          promise
             .success(function(data){
 

@@ -4,7 +4,7 @@ angular.module('hhApp')
   .controller('RouletteCtrl', function ($http, $log, $scope, $interval, $timeout, modalProvider, $window) {
 
     (function(){
-        var promise = $http.get('json/roulette.json');
+        var promise = $scope.req =  $http.get('json/roulette.json');
         promise
             .success(function(data){
                 $scope.constructRoulette(data);

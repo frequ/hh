@@ -27,6 +27,8 @@
     transform: rotate(@deg);
 }
 
+
+
 #canvas-reel{
     display: block;
     position: relative;
@@ -41,6 +43,16 @@
     .transform-translateZ(0);
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
+
+    #roulette-loader-text{
+        position: absolute;
+        top: 130px;
+        z-index: 999;
+        color: #000;
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+    }
 
     canvas{
         .transform-translateZ(0);
