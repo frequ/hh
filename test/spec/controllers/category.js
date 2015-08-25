@@ -14,7 +14,7 @@ describe('Controller: CategoryCtrl - Harjoita mielen tasapainoa tests', function
         jasmine.getJSONFixtures().fixturesPath='base/app/json';
 
         $httpBackend.whenGET('json/'+ routeParams.categoryId +'.json').respond(
-            getJSONFixture('harjoita-mielen-tasapainoa.json')
+            getJSONFixture('harjoita-mielen-tasapainoa.json') // jshint ignore:line
         );
 
         scope = $rootScope.$new();

@@ -14,7 +14,7 @@ describe('Controller: MainCtrl', function () {
         jasmine.getJSONFixtures().fixturesPath='base/app/json';
 
         $httpBackend.whenGET('json/categories.json').respond(
-            getJSONFixture('categories.json')
+            getJSONFixture('categories.json') // jshint ignore:line
         );
 
         scope = $rootScope.$new();
