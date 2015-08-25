@@ -101,6 +101,7 @@ angular.module('hhApp')
 
             $scope.offset = START_OFFSET;
             $('#canvas').css($scope.cssTransform, $scope.trnOpen + '0px, ' + $scope.offset + 'px' + $scope.trnClose);
+
         }
 
         var canvas = document.getElementById('canvas');
@@ -141,7 +142,9 @@ angular.module('hhApp')
                     $scope.slotpeed = 0;
                     stopAll();
 
-                    var winEvent = items[8];
+                    var winPos = (Math.abs($scope.offset) / SLOT_HEIGTH)+2;
+
+                    var winEvent = items[winPos];
                     $timeout( function() {
                         $scope.openModal(winEvent);
                     }, 1000 );
