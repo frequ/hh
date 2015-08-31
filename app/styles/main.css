@@ -128,7 +128,7 @@ h1 {
   animation: casino 6s;
   -moz-animation: casino 6s;
   -webkit-animation: casino 6s;
-  -ms-m-animation: casino 6s;
+  -ms-animation: casino 6s;
 }
 .shadow {
   position: absolute;
