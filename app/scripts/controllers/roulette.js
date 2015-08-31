@@ -145,9 +145,12 @@ angular.module('hhApp')
                     var winPos = (Math.abs($scope.offset) / SLOT_HEIGTH)+2;
 
                     var winEvent = items[winPos];
+
+                    $('#canvas-reel').addClass('won');
+
                     $timeout( function() {
                         $scope.openModal(winEvent);
-                    }, 1000 );
+                    }, 4000 );
                 }
             }
 
@@ -166,7 +169,9 @@ angular.module('hhApp')
         $timeout(function(){
             $scope.constructRoulette($scope.data);
             $scope.spinDisabled = false;
+            $('#canvas-reel').removeClass('won');
         },1000);
+
     }
 
     $scope.spin = function(){

@@ -85,7 +85,7 @@ h1 {
   height: 350px;
   border: 10px solid;
   border-color: #777 #999 #666 #999;
-  background-color: #d2ac2b;
+  background: #d2ac2b;
   margin-bottom: 20px;
   overflow: hidden;
   z-index: 1;
@@ -124,6 +124,11 @@ h1 {
   text-align: center;
   top: 170px;
 }
+.won {
+  animation: casino 6s;
+  -moz-animation: casino 6s;
+  -webkit-animation: casino 6s;
+}
 .shadow {
   position: absolute;
   width: 100%;
@@ -152,6 +157,108 @@ h1 {
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+@keyframes casino {
+  0% {
+    background: #d2ac2b;
+    border-color: red orange red orange;
+  }
+  15% {
+    background: red;
+    border-color: #d2ac2b rgba(210, 172, 43, 0.7) #d2ac2b rgba(210, 172, 43, 0.7);
+  }
+  30% {
+    background: #d2ac2b;
+    border-color: red orange red orange;
+  }
+  45% {
+    background: red;
+    border-color: #d2ac2b rgba(210, 172, 43, 0.7) #d2ac2b rgba(210, 172, 43, 0.7);
+  }
+  60% {
+    background: #d2ac2b;
+    border-color: red orange red orange;
+  }
+  75% {
+    background: red;
+    border-color: #d2ac2b rgba(210, 172, 43, 0.7) #d2ac2b rgba(210, 172, 43, 0.7);
+  }
+  90% {
+    background: #d2ac2b;
+    border-color: red orange red orange;
+  }
+  100% {
+    background: red;
+    border-color: #d2ac2b;
+  }
+}
+@-moz-keyframes casino {
+  0% {
+    background: #d2ac2b;
+    border-color: red orange red orange;
+  }
+  15% {
+    background: red;
+    border-color: #d2ac2b rgba(210, 172, 43, 0.7) #d2ac2b rgba(210, 172, 43, 0.7);
+  }
+  30% {
+    background: #d2ac2b;
+    border-color: red orange red orange;
+  }
+  45% {
+    background: red;
+    border-color: #d2ac2b rgba(210, 172, 43, 0.7) #d2ac2b rgba(210, 172, 43, 0.7);
+  }
+  60% {
+    background: #d2ac2b;
+    border-color: red orange red orange;
+  }
+  75% {
+    background: red;
+    border-color: #d2ac2b rgba(210, 172, 43, 0.7) #d2ac2b rgba(210, 172, 43, 0.7);
+  }
+  90% {
+    background: #d2ac2b;
+    border-color: red orange red orange;
+  }
+  100% {
+    background: red;
+    border-color: #d2ac2b;
+  }
+}
+@-webkit-keyframes casino {
+  0% {
+    background: #d2ac2b;
+    border-color: red orange red orange;
+  }
+  15% {
+    background: red;
+    border-color: #d2ac2b rgba(210, 172, 43, 0.7) #d2ac2b rgba(210, 172, 43, 0.7);
+  }
+  30% {
+    background: #d2ac2b;
+    border-color: red orange red orange;
+  }
+  45% {
+    background: red;
+    border-color: #d2ac2b rgba(210, 172, 43, 0.7) #d2ac2b rgba(210, 172, 43, 0.7);
+  }
+  60% {
+    background: #d2ac2b;
+    border-color: red orange red orange;
+  }
+  75% {
+    background: red;
+    border-color: #d2ac2b rgba(210, 172, 43, 0.7) #d2ac2b rgba(210, 172, 43, 0.7);
+  }
+  90% {
+    background: #d2ac2b;
+    border-color: red orange red orange;
+  }
+  100% {
+    background: red;
+    border-color: #d2ac2b;
+  }
 }
 .modal-dialog {
   width: 90%;
