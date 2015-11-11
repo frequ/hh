@@ -9,7 +9,7 @@ angular.module('hhApp')
         $scope.event.content = $sce.trustAsHtml($scope.event.content);
     }
 
-    if($scope.event.videoId){
+    if ($scope.event.videoId) {
         var protocol = location.protocol;
         $scope.ytUrl = $sce.trustAsResourceUrl(protocol+"//www.youtube.com/embed/"+ $scope.event.videoId +"?rel=0");
     }

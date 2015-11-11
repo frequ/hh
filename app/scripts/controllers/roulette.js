@@ -1,21 +1,17 @@
 'use strict';
 
 angular.module('hhApp')
-  .controller('RouletteCtrl', function ($http, $log, $scope, $interval, $timeout, modalProvider, $window) {
+  .controller('RouletteCtrl', function ($log, $scope, $interval, $timeout, modalProvider, $window, HttpService) {
 
-    (function(){
-        var promise = $scope.req =  $http.get('json/roulette.json');
-        promise
-            .success(function(data){
-                $scope.constructRoulette(data);
-                $scope.data = data;
-            })
-            .error(function(){
-                $log.warn('error fetching roulette data');
-            });
-    })();
+    var getRouletteContent = function() {
+      HttpService.GET("roulette").then(function(data) {
+        $scope.constructRoulette(data);
+        $scope.data = data;
+      });
+    };
+    getRouletteContent();
 
-    $scope.constructRoulette = function(data){
+    $scope.constructRoulette = function(data) {
 
         var SLOT_HEIGTH = 110;
         var START_OFFSET = -(9*110);
@@ -38,12 +34,12 @@ angular.module('hhApp')
         $scope.trnClose = has3d ? ',0)' : ')';
 
 
-        function fitToContainer(canvas){
+        function fitToContainer(canvas) {
             canvas.style.width = '100%';
             canvas.width = canvas.offsetWidth;
         }
 
-        function getRandomEvents(){
+        function getRandomEvents() {
             var items = [];
             var randomsArray = [];
             var i;
@@ -64,7 +60,7 @@ angular.module('hhApp')
                 }
             }
 
-            angular.forEach(randomsArray, function(randomIndex){
+            angular.forEach(randomsArray, function(randomIndex) {
                 items.push(data[randomIndex]);
             });
 
@@ -76,7 +72,7 @@ angular.module('hhApp')
             return items;
         }
 
-        function fillCanvas(items, canvas){
+        function fillCanvas(items, canvas) {
             var ctx = canvas.getContext('2d');
             var fullWidth = canvas.width;
 
@@ -112,13 +108,13 @@ angular.module('hhApp')
 
 
 
-        $scope.loop = function(){
+        $scope.loop = function() {
             $scope.slotspeed = START_SLOT_SPEED;
 
             $scope.gameLoop = $interval(draw, 20);
 
-            $scope.slowTimer = $timeout(function(){
-                $scope.slowInterval = $interval(function(){
+            $scope.slowTimer = $timeout(function() {
+                $scope.slowInterval = $interval(function() {
                     if ($scope.slotspeed > 1) {
                         $scope.slotspeed--;
                     }
@@ -127,7 +123,7 @@ angular.module('hhApp')
 
         };
 
-        function draw(){
+        function draw() {
             var runner = $('#canvas');
             $scope.offset = $scope.offset + $scope.slotspeed;
 
@@ -159,31 +155,30 @@ angular.module('hhApp')
         }
     };
 
-    function stopAll(){
+    function stopAll() {
         $interval.cancel($scope.gameLoop);
         $interval.cancel($scope.slowInterval);
         $timeout.cancel($scope.slowTimer);
     }
 
-    function reset(){
-        $timeout(function(){
+    function reset() {
+        $timeout(function() {
             $scope.constructRoulette($scope.data);
             $scope.spinDisabled = false;
             $('#canvas-reel').removeClass('won');
         },1000);
-
     }
 
-    $scope.spin = function(){
+    $scope.spin = function() {
         $scope.loop();
     };
 
-    $scope.openModal = function(event){
+    $scope.openModal = function(event) {
         modalProvider.openModal(event);
         reset();
     };
 
-    $scope.back = function(){
+    $scope.back = function() {
         stopAll();
         $window.history.back();
     };

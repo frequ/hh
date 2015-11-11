@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('hhApp')
-.controller('CategoryCtrl', function ($scope, $http, $log, $routeParams, modalProvider, $window, $sce) {
+.controller('CategoryCtrl', function ($scope, $log, $routeParams, modalProvider, $window, $sce, HttpService) {
 
     $scope.events = [];
     $scope.eventsName = "";
@@ -9,39 +9,30 @@ angular.module('hhApp')
     $scope.hasSubcategories = false;
     $scope.inSubcategoryListing = false;
 
-    (function(){
-        var promise = $scope.req = $http.get('json/'+ $routeParams.categoryId +'.json');
-        promise
-        .success(function(data){
+    var getCategory = function() {
+      var categoryId = $routeParams.categoryId;
+      HttpService.GET(categoryId).then(function(data) {
+        if (data.subcategories) {
+            $scope.subcategories = data.subcategories;
+            $scope.hasSubcategories = true;
+        }
 
-            if (data.subcategories) {
-                $scope.subcategories = data.subcategories;
-                $scope.hasSubcategories = true;
-            }
-
-            $scope.parentEventsName = $scope.eventsName = data.name;
-            $scope.parentEvents = $scope.events = data.events;
-            $scope.parentEventsLead = $scope.eventsLead = $sce.trustAsHtml(data.lead);
-
-
-
-        })
-
-        .error(function(){
-            $log.warn('error fetching '+ $routeParams.categoryId +'.json');
-        });
-
-    })();
+        $scope.parentEventsName = $scope.eventsName = data.name;
+        $scope.parentEvents = $scope.events = data.events;
+        $scope.parentEventsLead = $scope.eventsLead = $sce.trustAsHtml(data.lead);
+      });
+    };
+    getCategory();
 
     $scope.openModal =  function(event){
         modalProvider.openModal(event);
     };
 
     $scope.openUrl = function(url){
-        if( url && url.length > 0 ){
-			var win = $window.open(url, '_blank');
-			win.focus();
-		}
+      if( url && url.length > 0 ) {
+  			var win = $window.open(url, '_blank');
+  			win.focus();
+	    }
     };
 
     $scope.selectSubCategory = function(subcategory){
