@@ -4,6 +4,7 @@ angular.module('hhApp')
 .controller('EventModalCtrl', function ($scope, $modalInstance, items, $sce) {
 
     $scope.event = items;
+    $scope.ytUrl = null;
 
     if ($scope.event.content && typeof $scope.event.content === "string") {
         $scope.event.content = $sce.trustAsHtml($scope.event.content);

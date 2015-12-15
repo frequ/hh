@@ -3,9 +3,11 @@
 
     <div class="row" ng-repeat="mainCategories in splitMainCategories">
         <div class="col-md-4" ng-repeat="mainCategory in mainCategories">
-            <!-- maybe input type button to work with ng-model -->
             <a ng-href="#/category/{{mainCategory.id}}">
-                <button class="btn btn-category btn-default btn-block btn-lg">{{mainCategory.name}}</button>
+                <button class="btn btn-default btn-block btn-lg sprite-btn">
+                  <i class="sprite" ng-class="mainCategory.id"></i>
+                  <span>{{mainCategory.name}}</span>
+                </button>
             </a>
 
         </div>
@@ -22,7 +24,10 @@
     <div class="row">
         <div class="col-md-4">
             <a href="#/ruletti">
-                <button class="btn btn-category btn-roulette btn-block btn-lg">Kokeile Elämysrulettia</button>
+                <button class="btn btn-roulette btn-block btn-lg sprite-btn">
+                  <i class="sprite elamysruletti"></i>
+                  <span>Elämysruletti</span>
+                </button>
             </a>
         </div>
     </div>

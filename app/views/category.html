@@ -1,5 +1,8 @@
 <button class="btn btn-default btn-lg" ng-click="back()">Takaisin</button>
-<h3>{{eventsName}}</h3>
+<div class="row sprite-row">
+  <i class="sprite" ng-class="categoryId"></i>
+  <h3>{{eventsName}}</h3>
+</div>
 <p class="lead" ng-bind-html="eventsLead"></p>
 
 <div class="row" ng-hide="hasSubcategories">

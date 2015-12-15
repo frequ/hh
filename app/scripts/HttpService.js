@@ -4,8 +4,9 @@ angular.module('hhApp')
 .factory('HttpService', function($http, $log, $q) {
 
   var HttpService = {};
+  // this actually already gets from the mss domain
   var url = 'json/';
-  // var url = 'https://www.miinasillanpaa.fi/json/';
+  // var url = 'https://www.miinasillanpaa.fi/hh/json/';
 
   HttpService.GET = function(whatToGet) {
     // whatToGet is either a string "categories" or "roulette" or

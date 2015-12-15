@@ -8,9 +8,11 @@ angular.module('hhApp')
     $scope.eventsLead = "";
     $scope.hasSubcategories = false;
     $scope.inSubcategoryListing = false;
+    $scope.categoryId = null;
 
     var getCategory = function() {
       var categoryId = $routeParams.categoryId;
+      $scope.categoryId = categoryId;
       HttpService.GET(categoryId).then(function(data) {
         if (data.subcategories) {
             $scope.subcategories = data.subcategories;
