@@ -106,38 +106,38 @@
 },{
     "id": 18,
     "name": "Tee rentoutushengitysharjoitus",
-    "content": "Harjoitus auttaa sinua rentoutumaan, kun tunnet stressiä, ahdistusta tai ärtymystä. <button class=\"button button-stable button-block\">Tee harjoitus tästä</button>",
-    "externalUrl": "http://oivamieli.fi/rentoutushengitys.php"
+    "content": "Harjoitus auttaa sinua rentoutumaan, kun tunnet stressiä, ahdistusta tai ärtymystä. <button class=\"btn btn-default\" ng-click=\"openUrl()\">Tee harjoitus tästä</button>",
+    "openUrl": "http://oivamieli.fi/rentoutushengitys.php"
 },{
     "id": 19,
     "name": "Tee Vuori-harjoitus",
-    "content": "Harjoitus on hyvä, kun tunnet olosi hajanaiseksi ja rauhattomaksi. <button class=\"button button-stable button-block\">Tee harjoitus tästä</button>",
-    "externalUrl": "http://oivamieli.fi/vuori.php"
+    "content": "Harjoitus on hyvä, kun tunnet olosi hajanaiseksi ja rauhattomaksi. <button class=\"btn btn-default\" ng-click=\"openUrl()\">Tee harjoitus tästä</button>",
+    "openUrl": "http://oivamieli.fi/vuori.php"
 },{
     "id": 20,
     "name": "Ole läsnä",
-    "content": "Elä tässä hetkessä. Katso ja kuuntele johdanto tietoiseen läsnäoloon: <button class=\"button button-stable button-block\">Aloita tästä</button>",
-    "externalUrl": "http://oivamieli.fi/tietoinen_mieli_intro.php"
+    "content": "Elä tässä hetkessä. Katso ja kuuntele johdanto tietoiseen läsnäoloon: <button class=\"btn btn-default\" ng-click=\"openUrl()\">Aloita tästä</button>",
+    "openUrl": "http://oivamieli.fi/tietoinen_mieli_intro.php"
 },{
     "id": 21,
     "name": "Hyväksyvä mieli -harjoitus",
-    "content": "Hyväksy ajatuksesi ja tunteesi – se, mitä et voi muuttaa. Tee harjoitus. <button class=\"button button-stable button-block\">Aloita harjoitus tästä</button>",
-    "externalUrl": "http://oivamieli.fi/hyvaksyva_mieli_intro.php"
+    "content": "Hyväksy ajatuksesi ja tunteesi – se, mitä et voi muuttaa. Tee harjoitus. <button class=\"btn btn-default\" ng-click=\"openUrl()\">Aloita harjoitus tästä</button>",
+    "openUrl": "http://oivamieli.fi/hyvaksyva_mieli_intro.php"
 },{
     "id": 22,
     "name": "Tee Lehdet virrassa -harjoitus",
-    "content": "Huomaa, kuinka ajatuksesi tulevat ja menevät. <button class=\"button button-stable button-block\">Aloita tästä</button>",
-    "externalUrl": "http://oivamieli.fi/lehdet_virrassa.php"
+    "content": "Huomaa, kuinka ajatuksesi tulevat ja menevät. <button class=\"btn btn-default\" ng-click=\"openUrl()\">Aloita tästä</button>",
+    "openlUrl": "http://oivamieli.fi/lehdet_virrassa.php"
 },{
     "id": 23,
     "name": "Rikkinäinen automaatti -harjoitus",
-    "content": "Harjoittele hyväksyvää asennetta itseäsi ja tilannettasi kohtaan. <button class=\"button button-stable button-block\">Tee Rikkinäinen automaatti -harjoitus tästä</button>",
-    "externalUrl": "http://oivamieli.fi/rikkinainen_automaatti.php"
+    "content": "Harjoittele hyväksyvää asennetta itseäsi ja tilannettasi kohtaan. <button class=\"btn btn-default\" ng-click=\"openUrl()\">Tee Rikkinäinen automaatti -harjoitus tästä</button>",
+    "openUrl": "http://oivamieli.fi/rikkinainen_automaatti.php"
 },{
     "id": 24,
     "name": "Matkustajat bussissa -harjoitus",
-    "content": "Huomaa ajatuksia, jotka estävät sinua toimimasta arvojesi mukaisesti. Matkustajat bussissa -harjoituksen avulla opit vapautumista ajatusten ylivallasta. <button class=\"button button-stable button-block\">Tee Matkustajat bussissa -harjoitus tästä</button>",
-    "externalUrl": "http://oivamieli.fi/matkustajat_bussissa.php"
+    "content": "Huomaa ajatuksia, jotka estävät sinua toimimasta arvojesi mukaisesti. Matkustajat bussissa -harjoituksen avulla opit vapautumista ajatusten ylivallasta. <button class=\"btn btn-default\" ng-click=\"openUrl()\">Tee Matkustajat bussissa -harjoitus tästä</button>",
+    "openUrl": "http://oivamieli.fi/matkustajat_bussissa.php"
 },{
     "id": 25,
     "name": "Hyvän mielen metsäkävely – Talvi",
@@ -162,9 +162,9 @@
 },{
     "id": 29,
     "name": "Taidenäyttely kotisohvalta",
-    "content": "Valitse suosikkitaulusi Ateneumin taidemuseon kokoelmista ja kuuntele teosesittely. Voit nähdä tutussakin taulussa jotakin aivan uutta  <button class=\"button button-stable button-block\">Tästä Ateneumiin</button>",
+    "content": "Valitse suosikkitaulusi Ateneumin taidemuseon kokoelmista ja kuuntele teosesittely. Voit nähdä tutussakin taulussa jotakin aivan uutta  <button class=\"btn btn-default\" ng-click=\"openUrl()\">Tästä Ateneumiin</button>",
     "category": "Elämyksiä taiteesta ja kulttuurista",
-    "externalUrl": "http://www.ateneum.fi/fi/%C3%A4%C3%A4niopas-ateneumin-kokoelmiin"
+    "openUrl": "http://www.ateneum.fi/fi/%C3%A4%C3%A4niopas-ateneumin-kokoelmiin"
 },{
     "id": 30,
     "name": "Katso tarkasti!",
@@ -173,8 +173,8 @@
 },{
     "id": 31,
     "name": "Lähetä kortti",
-    "content": "Lähetä kortti jollekin ystävällesi, sukulaiselle, vanhalle tutulle tai henkilölle, joka ensimmäisenä tulee mieleesi. Sähköpostitse voit lähettää kortin maksutta: <button class=\"button button-stable button-block\")>Tästä</button>",
-    "externalUrl": "http://www.eloisaika.fi/eloisa-ika/eloisat-hahmot/laheta-e-kortti"
+    "content": "Lähetä kortti jollekin ystävällesi, sukulaiselle, vanhalle tutulle tai henkilölle, joka ensimmäisenä tulee mieleesi. Sähköpostitse voit lähettää kortin maksutta: <button class=\"btn btn-default\" ng-click=\"openUrl()\">Tästä</button>",
+    "openlUrl": "http://www.eloisaika.fi/eloisa-ika/eloisat-hahmot/laheta-e-kortti"
 },{
     "id": 32,
     "name": "Tuolijumppa",
