@@ -17,14 +17,15 @@ body {
 body a:hover {
   text-decoration: none;
 }
+.source {
+  display: block;
+  color: #656565;
+}
 .lead {
   font-size: 21px;
 }
 .lead .add-bottom-margin {
   margin-bottom: 30px;
-}
-.lead .source {
-  font-size: 75%;
 }
 h1 {
   margin-top: 0;
