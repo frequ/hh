@@ -153,12 +153,6 @@
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Aamupaloja, välipaloja ja jälkiruokia"
         },{
-            "id": 21,
-            "name": "Avokado-suklaamousse",
-            "content": "<ul class=\"list\"><li>1 iso avokado</li><li>1 banaani</li><li>2 ½ rkl kaakaojauhetta</li><li>ripaus suolaa</li><li>½ tl vanilja-aromia</li><li>½ tl pikakahvijauhetta</li></ul><ol><li>Kuori avokado ja poista sisältä kivi.</li><li>Kuutioi avokado sekä banaani ja soseuta muiden ainesten kanssa sauvasekoittimella.</li><li>Tarkista maku ja lisää halutessasi makeutta hunajasta.</li><li>Anna moussen viilentyä hetki jääkaapissa ennen tarjoilua.</li></ol>",
-            "category": "Ravinnolla terveyttä",
-            "belongsTo": "Aamupaloja, välipaloja ja jälkiruokia"
-        },{
             "id": 22,
             "name": "Raejuustoherkku",
             "content": "<ul class=\"list\"><li>100 g raejuustoa</li><li>200 g mansikoita</li><li>1 nektariini/omena</li><li>1 banaani</li><li>pähkinöitä</li></ul><ol><li>Pilko hedelmät ja mansikat tarjoiluastiaan.</li><li>Lisää raejuusto ja ripottele joukkoon pähkinöitä.</li></ol>",
@@ -177,12 +171,6 @@
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Smoothiet"
         },{
-            "id": 25,
-            "name": "Lämmin hedelmäsalaatti ja suklaakastike",
-            "content": "<ul class=\"list\"><li>½ ananasta (8 viipaletta)</li><li>2 viikunaa tai 1 banaani</li><li>1 iso päärynä tai omena</li><li>150 g viinirypäleitä</li><li>pala inkivääriä</li><li>1 tl fariinisokeria (tai siirappia)</li><li>1 rkl pullomargariinia</li><lh>Suklaakastike:</lh><li>80 g tummaa suklaata</li><li>2 rkl pullomargariinia</li><li>1 rkl siirappia</li><li>1 tl kaakaojauhetta</li><li>1 tl vaniljasokeria</li><li>2 rkl vettä</li><li>1 rkl konjakkia (tai muutama tippa rommiesanssia)</li></ul><ol><li>Valmista ensin kastike: Mittaa suklaata lukuun ottamatta kaikki ainekset pieneen kattilaan ja anna kiehahtaa sekoittaen tasaiseksi.</li><li>Nosta kattila liedeltä ja sulata suklaa huolellisesti sekoittaen se muiden ainesten joukkoon. Lämmitä tarvittaessa.</li><li>Pese ja kuori tarvittaessa hedelmät ja leikkaa paksuhkoiksi viipaleiksi. Kuori ja hienonna inkivääri.</li><li>Mittaa rasva ja sokeri pannulle, paista hedelmäviipaleita kevyesti. Asettele ne kulhoihin ja viimeistele kuumalla suklaalla.</li></ol>",
-            "category": "Ravinnolla terveyttä",
-            "belongsTo": "Aamupaloja, välipaloja ja jälkiruokia"
-        },{
             "id": 26,
             "name": "Puolukkasmoothie",
             "category": "Ravinnolla terveyttä",
@@ -200,12 +188,6 @@
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Smoothiet",
             "content": "<ul class=\"list\"><li>1 kurkku</li><li>1 ruukullinen salaatti (mitä tummemman vihreää, sitä enemmän ravintoaineita)</li><li>4 rkl limetin tai sitruunan mehua</li><li>2 dl kivennäisvettä</li></ul><ol><li>Paloittele kurkku ja huuhtele salaatinlehdet.</li><li>Lisää ainekset tehosekoittimeen.</li><li>Soseuta tasaiseksi juomaksi. Ohenna tarvittaessa kivennäisvedellä.</li><li>Nauti juoma heti.</li></ol>"
-        },{
-            "id": 29,
-            "name": "Mustaherukka-avokadosmoothie (6 annosta)",
-            "category": "Ravinnolla terveyttä",
-            "belongsTo": "Smoothiet",
-            "content": "<ul class=\"list\"><li>1 avokado</li><li>10 jääpalaa</li><li>3 dl omenatäysmehua</li><li>½ tl kuivattua inkivääriä (sisältää runsaasti antioksidantteja, mm. kaliumia, ja virkistää sekä mieltä että kehoa)</li><li>2½ dl mustaherukoita</li><li>3 dl maustamatonta jogurttia</li><li>2 rkl leseitä</li><li>makeutus hunajalla maun mukaan</li></ul><ol><li>Kuori ja paloittele avokado tehosekoittimeen.</li><li>Lisää loput ainekset ja anna koneen käydä, kunnes smoothie on tasaista.</li><li>Nauti heti.</li></ol>"
         },{
             "id": 30,
             "name": "Mustikka-banaanismoothie (2 annosta)",
@@ -290,13 +272,6 @@
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Iltapaloja",
             "content": "<ul class=\"list\"><lh>Broileri:</lh><li>1 rkl rypsiöljyä</li><li>1 rkl sitruunamehua</li><li>1−2 tl currya</li><li>½ tl suolaa</li><li>170 g maustamattomia broilerinfileitä</li><lh>Salaatti:</lh><li>1 paprika</li><li>1 kurkku</li><li>½ rkl rypsiöljyä</li><li>1 jääsalaattia ruukussa tai ½ jää- ja ½ rooman- eli sidesalaattia ruukussa</li><li>1 dl oliiveja</li><lh>Koristeluun:</lh><li>sitruuna (viipaloituna)</li><ul class=\"list\"><ol><li>Sekoita öljy, sitruunamehu ja mausteet keskenään. Kaada ne broilerinleikkeiden päälle rasiaan. Kääntele leikkeitä niin, että ne maustuvat joka puolelta. Anna marinoitua jääkaapissa 2 tuntia, ota lihat huoneenlämpöön noin puoli tuntia ennen kypsentämistä. Voit myös pikamarinoida lihat huoneenlämmössä 1/2 tuntia.</li><li>Paloittele kurkut ja paprikat.</li><li>Huuhtele, kuivaa ja revi salaatit vadille. Levitä päälle kurkkuviipaleet, paprikat ja oliivit.</li><li>Paista pannulla broilerit kypsiksi, jäähdytä hieman.</li><li>Leikkaa broilerinfileet vinoviipaleiksi ja nosta ne salaatin päälle.</li><li>Koristele lämmin kanasalaatti sitruunaviipaleilla ja tarjoa broilerisalaatti täysjyväleivän kera.</li></ol>"
-        },{
-            "id": 44,
-            "name": "Superruokavideo (27 min)",
-            "videoId": "am4Fm95iPX4",
-            "content": "Hifistelyä vai paluuta entiseen, terveelliseen ja lisäaineettomaan ruokaan? Pirren olkkarissa Maria Krohn ja Maarit Lang.",
-            "category": "Ravinnolla terveyttä",
-            "belongsTo": "Tietoa ravinnosta"
         },{
             "id": 45,
             "name": "Ruokakolmio kannustaa monipuolisiin valintoihin",

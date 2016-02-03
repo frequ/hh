@@ -9,13 +9,6 @@
         "content": "Vietä Vahvistava minuutti: kuuntele, kun Asta Juntunen puhuu ystävyydestä.",
         "category": "Harjoita mielen tasapainoa"
     },{
-        "id": 1,
-        "rouletteContent": true,
-        "name": "Video voimavaroista",
-        "videoId": "EDiI0y7Sr-s",
-        "content": "Vietä Vahvistava minuutti: kuuntele, kun Tuomas Keskinen puhuu omien voimavarojen löytämisestä.",
-        "category": "Harjoita mielen tasapainoa"
-    },{
         "id": 2,
         "rouletteContent": true,
         "name": "Video vanhenemisesta",
@@ -53,12 +46,6 @@
         "rouletteContent": true,
         "name": "Hyvän mielen metsäkävely − Syksy",
         "videoId": "DEUpOV3eSVU",
-        "category": "Harjoita mielen tasapainoa"
-    },{
-        "id": 8,
-        "rouletteContent": true,
-        "name": "Kehon kuuntelu iltaisin − Mindfulness-harjoitus",
-        "videoId": "fZ_al1GA8Y8",
         "category": "Harjoita mielen tasapainoa"
     },{
         "id": 9,

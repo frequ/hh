@@ -117,25 +117,10 @@
         "belongsTo": "Luonnonantimet",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2009/06/04/puruvedesta-nousee-muikkua-talvella-1964"
     },{
-        "id": 15,
-        "rouletteContent": true,
-        "name": "Eläydy musiikkiin!",
-        "videoId": "zFG-b7AD7EA",
-        "content": "Kuka tahansa meistä voi joutua kohtaamaan oman rajansa. Kuuntele muusikko Laura Tuomen voimalaulu. Se voi lohduttaa ja antaa voimaa vaikeina hetkinä.",
-        "category": "Elämyksiä löytämään",
-        "belongsTo": "Taide ja kulttuuri"
-    },{
         "id": 16,
         "rouletteContent": true,
         "name": "Vietä runohetki",
         "content": "<div class=\"text-center\">Ihmisenä oleminen on vierasmaja<br/> joka aamu tulee uusi vieras.<br/>Ilo, masennus, ilkeys,<br/>äkillinen tietoisuuden hetki, kaikki<br/>tulevat kuin odottamattomat vieraat.<br/>Toivota tervetulleeksi ja viihdytä niitä kaikkia!<br/>Vaikka ne olisivat murheiden joukkio,<br/>joka raastaa talosi raivokkaasti<br/>tyhjäksi huonekaluista,<br/>kohtele silti jokaista vierasta kunnioittavasti.<br/>He voivat olla tyhjentämässä sinua<br/>uutta iloa varten<br/>Synkkä ajatus, häpeä, kauna −<br/>ota ne vastaa nauraen<br/>ja kutsu ne sisään.<br/>Ole kiitollinen kaikista tulijoista<br/>sillä niistä jokainen on lähetetty<br/>oppaaksi tuonpuoleisesta.<br/>(Rumi 1200-luvulla)</div>",
-        "category": "Elämyksiä löytämään",
-        "belongsTo": "Taide ja kulttuuri"
-    },{
-        "id": 17,
-        "name": "Käsityön harrastamisesta taiteeseen (28 min)",
-        "videoId": "O3tp1X891OM",
-        "content": "Mietitkö elämällesi uutta sisältöä, tarvitsetko oman tilan rauhoittumiseen vai haluatko tehdä yhdessä toisten samanhenkisten kanssa?",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"
     },{
@@ -157,13 +142,6 @@
         "videoId": "-PIbWD9dcWI",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"
-    },{
-        "id": 21,
-        "name": "Kansanperinne (27 min)",
-        "videoId": "GXmrZQkqWII",
-        "content": "Onko kertakäyttökulttuuri jyrännyt kansanperinteen ja itsetekemisen taidot alleen, voimmeko ottaa perinteistä kestävän kehityksen mallia? Aiheesta ovat keskustelemassa Elina Koskelainen ja Saila Leskinen",
-        "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa"
     },{
         "id": 22,
         "name": "Kuvataide harrastuksena (29 min)",
@@ -189,26 +167,6 @@
         "name": "Runosaappaat esittää: Keltaista ja Harmaata",
         "videoId": "qqj2kuLdE9Y",
         "content": "Videolla runoja esittävät lausuntaryhmä Runosaappaiden jäsenet Carita Koskenmäki, Sinikka Koskinen, Tuula Kuoppala, Antti Luoma, Mervi Mäki, Tuula Mutka, Irma Palomäki, Eero Peltoniemi ja Leena Vaismaa. Runosaappaat on Kulttuurista muistoja -hankkeen järjestämää ryhmätoimintaa. Etelä-Pohjanmaan Muistiyhdistyksen Kulttuurista muistoja -hankkeessa työskentelevät Katja Kujala ja Manar Ameli. Hanke on mukana Raha-automaattiyhdistyksen Eloisa ikä -avustusohjelmassa.",
-        "category": "Elämyksiä löytämään",
-        "belongsTo": "Taide ja kulttuuri"
-    },{
-        "id": 26,
-        "name": "Räppimummo: On ollut nälkäkin",
-        "videoId": "gk22fniwayM",
-        "content": "Räppimummo esiintyi Vanhustyön vastuunkantajat -kongressin avajaisissa.",
-        "category": "Elämyksiä löytämään",
-        "belongsTo": "Taide ja kulttuuri"
-    },{
-        "id": 27,
-        "name": "Sosiaalinen sirkus",
-        "videoId": "Ik4NA9miG4M",
-        "content": "Sosiaalinen sirkus on suosiotaan kasvattava aktiviteetti, jolla ikäihmisiä saatetaan yhteen. Hämeenlinnassa toimiva sirkus pyörii osana valtakunnallista Raha-automaattiyhdistyksen Eloisa ikä -avustusohjelmaa.",
-        "category": "Elämyksiä löytämään",
-        "belongsTo": "Taide ja kulttuuri"
-    },{
-        "id": 28,
-        "name": "Vanhuus rokkaa",
-        "videoId": "7beiI99jp2w",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"
     },{

@@ -2,16 +2,6 @@
     "name": "Koti kuntoon",
     "lead": "<p>Muistisairaus voi tuoda mukanaan vaikeuksia tarttua toimeen. Päiviä kannattaakin suunnitella kalenteriin ja pyrkiä viemään kalenteriin merkityt asiat loppuun. Aikaa vievät asiat kannattaa jakaa useammalle päivälle.</p><p>Kodin siisteys ja järjestys auttaa hallitsemaan ympäristöä. Kun tavarat, kuten avaimet ja kännykät, ovat omilla pakoillaan, kaikkien on helpompi löytää ne. Siisti koti on myös viihtyisä.</p><blockquote>”Älä menetä toivorikkauttas millän taval. Kyl rätei ja lumpui piissa!”<br/> - Kersantti Urho Hietanen, Tuntematon sotilas</blockquote>",
     "events": [{
-            "id": 0,
-            "name": "Uunin puhdistus",
-            "category": "Koti kuntoon",
-            "videoId": "Ot2SG8fk17g"
-        },{
-            "id": 1,
-            "name": "Näppäimistö puhtaaksi",
-            "category": "Koti kuntoon",
-            "videoId": "l9Ic01FqU6Q"
-        },{
             "id": 2,
             "name": "Ikkunan pesu",
             "category": "Koti kuntoon",
@@ -26,11 +16,6 @@
             "name": "Keittiö kuntoon",
             "category": "Koti kuntoon",
             "videoId": "BwgFjWEcgFI"
-        },{
-            "id": 5,
-            "name": "Lasipinnat kirkkaiksi",
-            "category": "Koti kuntoon",
-            "videoId": "sdWxINXxVrM"
         },{
             "id": 6,
             "name": "Eteisratsia",
@@ -47,11 +32,6 @@
             "category": "Koti kuntoon",
             "videoId": "oip-N4Uxknc"
         },{
-            "id": 9,
-            "name": "Katsaus siivouskomeroon",
-            "category": "Koti kuntoon",
-            "videoId": "-PlXQ9gNUn4"
-        },{
             "id": 10,
             "name": "Selätä kaaos",
             "category": "Kaaos kuriin",
@@ -61,21 +41,6 @@
             "name": "Biojätepussi lehdestä",
             "category": "Koti kuntoon",
             "videoId": "mKSegT5Kkpg"
-        },{
-            "id": 12,
-            "name": "Joka kodin jätehuolto",
-            "category": "Koti kuntoon",
-            "videoId": "WxQ3voa17Ac"
-        },{
-            "id": 13,
-            "name": "Paidan silitys",
-            "category": "Koti kuntoon",
-            "videoId": "tBXfNQ9mSVM"
-        },{
-            "id": 14,
-            "name": "Vaatteiden käsinpesu",
-            "category": "Koti kuntoon",
-            "videoId": "KMcRngrFCZU"
         },{
             "id": 15,
             "name": "Martat ekopyykillä",
