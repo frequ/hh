@@ -181,7 +181,7 @@
         "rouletteContent": true,
         "name": "Kulttuurista muistoja − eloisasti",
         "videoId": "d0lflMTXCiA",
-        "content": "Varoitus: Eloisa ikä -ohjelmaan kuuluvan Etelä-Pohjanmaan Muistiyhdistyksen Kulttuurista muistoja -hankkeen laatima video sisältää elämyksiä ja yhteisöllisyyttä, jotka saattavat liikuttaa katsojaa. Etelä-Pohjanmaalla ennaltaehkäistään muistisairauksia tarjoamalla ikääntyville kulttuuri- ja taideharrastusmahdollisuuksia lähipalveluna. Taide-elämyksiä tarjotaan myös muistioireisille, muistisairaille ja heidän omaisilleen. Ei kun Letkis soimaan! <p>Lisätietoa www.muistiyhdistys.fi; www.eloisaika.fi.</p>",
+        "content": "Varoitus: Eloisa ikä -ohjelmaan kuuluvan Etelä-Pohjanmaan Muistiyhdistyksen Kulttuurista muistoja -hankkeen laatima video sisältää elämyksiä ja yhteisöllisyyttä, jotka saattavat liikuttaa katsojaa. Etelä-Pohjanmaalla ennaltaehkäistään muistisairauksia tarjoamalla ikääntyville kulttuuri- ja taideharrastusmahdollisuuksia lähipalveluna. Taide-elämyksiä tarjotaan myös muistioireisille, muistisairaille ja heidän omaisilleen. Ei kun Letkis soimaan! <span class=\"source\">Lisätietoa www.muistiyhdistys.fi; www.eloisaika.fi.</span>",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"
     },{
@@ -222,9 +222,10 @@
         "id": 30,
         "rouletteContent": true,
         "name": "Taidenäyttely kotisohvalta",
-        "content": "Valitse suosikkitaulusi Ateneumin taidemuseon kokoelmista ja kuuntele teosesittely. Voit nähdä tutussakin taulussa jotakin aivan uutta.<br/><br/><super-navigate location=\"http://www.ateneum.fi/fi/%C3%A4%C3%A4niopas-ateneumin-kokoelmiin\"><button class=\"button button-stable button-block\")>Tästä Ateneumiin</button></super-navigate>",
+        "content": "Valitse suosikkitaulusi Ateneumin taidemuseon kokoelmista ja kuuntele teosesittely. Voit nähdä tutussakin taulussa jotakin aivan uutta.<br/><br/><button class=\"btn btn-default\" ng-click=\"openUrl()\">Siirry Ateneumiin</button>",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Taide ja kulttuuri"
+        "belongsTo": "Taide ja kulttuuri",
+        "openUrl": "http://www.ateneum.fi/fi/%C3%A4%C3%A4niopas-ateneumin-kokoelmiin"
     },{
         "id": 31,
         "rouletteContent": true,

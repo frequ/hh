@@ -1,14 +1,10 @@
 'use strict';
 
 angular.module('hhApp')
-.controller('EventModalCtrl', function ($scope, $modalInstance, items, $sce) {
+.controller('EventModalCtrl', function ($scope, $modalInstance, items, $sce, $window) {
 
     $scope.event = items;
     $scope.ytUrl = null;
-
-    if ($scope.event.content && typeof $scope.event.content === "string") {
-        $scope.event.content = $sce.trustAsHtml($scope.event.content);
-    }
 
     if ($scope.event.videoId) {
         var protocol = location.protocol;
@@ -21,6 +17,14 @@ angular.module('hhApp')
 
     $scope.cancel = function () {
         $modalInstance.dismiss('cancel');
+    };
+
+    $scope.openUrl = function () {
+      if ($scope.event.openUrl) {
+        var win = $window.open($scope.event.openUrl, '_blank');
+  			win.focus();
+      }
+
     };
 
 });

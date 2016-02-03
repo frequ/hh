@@ -4,7 +4,8 @@
 </div>
 
 <div class="modal-body">
-    <p ng-bind-html="event.content"></p>
+    <!-- <p ng-bind-html="event.content"></p> -->
+    <div dynamic="event.content"></div>
     <div ng-show="ytUrl" class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" ng-src="{{ ytUrl }}" frameborder="0"></iframe>
     </div>
