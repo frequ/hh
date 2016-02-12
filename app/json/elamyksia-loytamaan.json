@@ -4,11 +4,11 @@
     "subcategories": [{
             "name": "Taide ja kulttuuri"
         },{
-            "name": "Urheilu"
-        },{
             "name": "Luonnonantimet"
         },{
-            "name": "Perinteet ja historian havinaa"
+            "name": "Perinteet"
+        },{
+            "name": "Historia"
         }],
     "events": [
     {
@@ -17,55 +17,55 @@
         "content": "Lentojätkä Reino Halinin käden taidot opastaa katsojan metsäperinteen pariin eri työlajien kautta.",
         "videoId": "CagySDF21FQ",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa"
+        "belongsTo": "Perinteet"
     },{
         "id": 1,
         "name": "Puuaidan teko",
         "content": "Lentojätkä Reino Halinin käden taidot opastaa katsojan metsäperinteen pariin eri työlajien kautta.",
         "videoId": "IssfYRMej8s",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa"
+        "belongsTo": "Perinteet"
     },{
         "id": 2,
         "name": "Naiskauneutta (vuosien takaa)",
         "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa",
+        "belongsTo": "Historia",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2006/09/08/muhokselta-manilaan"
     },{
         "id": 3,
         "name": "Näin teet vihdan tai vastan",
         "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa",
+        "belongsTo": "Perinteet",
         "skipModalTo": "http://areena.yle.fi/1-2874211"
     },{
         "id": 4,
         "name": "Saunominen",
         "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa",
+        "belongsTo": "Perinteet",
         "skipModalTo": "http://areena.yle.fi/1-2214411"
     },{
         "id": 5,
-        "name": "Postiautolla läpi suomen 1960-luvulla",
+        "name": "Postiautolla läpi Suomen 1960-luvulla",
         "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa",
+        "belongsTo": "Historia",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2010/10/13/matka-lapi-suomen"
     },{
         "id": 6,
-        "name": "Postiautolla läpi kesäisen keski-suomen 1960-luvulla",
+        "name": "Postiautolla läpi kesäisen Keski-Suomen 1960-luvulla",
         "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa",
+        "belongsTo": "Historia",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2015/03/10/postiautolla-halki-kesaisen-keski-suomen"
     },{
         "id": 7,
         "name": "Postiauton ikkunasta Pohjanmaa 1970-luvulla: ",
         "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa",
+        "belongsTo": "Historia",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2013/05/02/pohjanmaata-postiauton-ikkunasta-1970-luvulla"
     },{
         "id": 8,
@@ -117,25 +117,18 @@
         "belongsTo": "Luonnonantimet",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2009/06/04/puruvedesta-nousee-muikkua-talvella-1964"
     },{
-        "id": 16,
-        "rouletteContent": true,
-        "name": "Vietä runohetki",
-        "content": "<div class=\"text-center\">Ihmisenä oleminen on vierasmaja<br/> joka aamu tulee uusi vieras.<br/>Ilo, masennus, ilkeys,<br/>äkillinen tietoisuuden hetki, kaikki<br/>tulevat kuin odottamattomat vieraat.<br/>Toivota tervetulleeksi ja viihdytä niitä kaikkia!<br/>Vaikka ne olisivat murheiden joukkio,<br/>joka raastaa talosi raivokkaasti<br/>tyhjäksi huonekaluista,<br/>kohtele silti jokaista vierasta kunnioittavasti.<br/>He voivat olla tyhjentämässä sinua<br/>uutta iloa varten<br/>Synkkä ajatus, häpeä, kauna −<br/>ota ne vastaa nauraen<br/>ja kutsu ne sisään.<br/>Ole kiitollinen kaikista tulijoista<br/>sillä niistä jokainen on lähetetty<br/>oppaaksi tuonpuoleisesta.<br/>(Rumi 1200-luvulla)</div>",
-        "category": "Elämyksiä löytämään",
-        "belongsTo": "Taide ja kulttuuri"
-    },{
         "id": 18,
         "name": "Isovanhemmuus mummojen näkökulmasta (28 min)",
         "videoId": "64zcaydalYY",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa"
+        "belongsTo": "Perinteet"
     },{
         "id": 19,
         "name": "Kyläilykulttuuri (28 min)",
         "videoId": "OmNNL820sLo",
         "content": "Pirren olkkarissa vieraina Tuula Juntunen ja Sanna Lajunen.",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet ja historian havinaa"
+        "belongsTo": "Perinteet"
     },{
         "id": 20,
         "name": "Kirjallisuus (kirjat, kirjoittaminen, harrastajateatteri) (28 min)",
@@ -177,14 +170,6 @@
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"
     },{
-        "id": 30,
-        "rouletteContent": true,
-        "name": "Taidenäyttely kotisohvalta",
-        "content": "Valitse suosikkitaulusi Ateneumin taidemuseon kokoelmista ja kuuntele teosesittely. Voit nähdä tutussakin taulussa jotakin aivan uutta.<br/><br/><button class=\"btn btn-default\" ng-click=\"openUrl()\">Siirry Ateneumiin</button>",
-        "category": "Elämyksiä löytämään",
-        "belongsTo": "Taide ja kulttuuri",
-        "openUrl": "http://www.ateneum.fi/fi/%C3%A4%C3%A4niopas-ateneumin-kokoelmiin"
-    },{
         "id": 31,
         "rouletteContent": true,
         "name": "Katso tarkasti!",
@@ -196,14 +181,14 @@
         "name": "Lasse Viren -selostus (70-luvulta)",
         "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Urheilu",
+        "belongsTo": "Historia",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2009/03/30/lasse-viren-ja-10-000-mn-draama-munchenissa"
     },{
         "id": 33,
         "name": "MM-95",
         "content": "",
         "category": "Elämyksiä löytämään",
-        "belongsTo": "Urheilu",
+        "belongsTo": "Historia",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2007/05/02/se-siina"
     }]
 }
