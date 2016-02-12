@@ -96,7 +96,7 @@
         },{
             "id": 10,
             "rouletteContent": true,
-            "name": "Karkota väsymys joogalla seisten",
+            "name": "Karkoita väsymys joogalla, seisten",
             "videoId": "p08TkF8QBRM",
             "category": "Liikettä niveliin",
             "belongsTo": "Vetreyttä ja notkeutta joogalla"
@@ -132,7 +132,7 @@
         },{
             "id": 15,
             "rouletteContent": true,
-            "name": "Joogalla letkeyttä ja notkeutta seisten, välineenä tuoli",
+            "name": "Joogalla letkeyttä ja notkeutta, seisten, välineenä tuoli",
             "videoId": "DZjmJyoz2Bg",
             "category": "Liikettä niveliin",
             "belongsTo": "Vetreyttä ja notkeutta joogalla"
