@@ -1,3 +1,5 @@
-# hyvinvointia hetkeen
+# Impulssi
 
-Non server-edition of Hyvinvointikalenteri
+https://www.miinasillanpaa.fi/impulssi
+
+- grunt serve

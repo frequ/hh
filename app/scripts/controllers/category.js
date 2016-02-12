@@ -18,6 +18,9 @@ angular.module('hhApp')
             $scope.subcategories = data.subcategories;
             $scope.hasSubcategories = true;
         }
+        // debug opening roulette stuffs in http://localhost:9000/#/category/roulette
+        // console.log(data)
+        // $scope.openModal(data[15])
 
         $scope.parentEventsName = $scope.eventsName = data.name;
         $scope.parentEvents = $scope.events = data.events;

@@ -6,7 +6,6 @@ angular.module('hhApp')
   var HttpService = {};
   // this actually already gets from the mss domain
   var url = 'json/';
-  // var url = 'https://www.miinasillanpaa.fi/hh/json/';
 
   HttpService.GET = function(whatToGet) {
     // whatToGet is either a string "categories" or "roulette" or
