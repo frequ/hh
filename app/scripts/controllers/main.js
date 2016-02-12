@@ -11,6 +11,13 @@ angular.module('hhApp')
                   "name": category,
                   "id": category.replace(/ä/g, "a").replace(/ö/g, "o").split(' ').join('-').toLowerCase()
               };
+
+              if (category == "Elämysruletti") {
+                obj.link = "#/ruletti";
+              }else{
+                obj.link = "#/category/"+obj.id;
+              }
+
               categories.push(obj);
           });
           $scope.splitMainCategories = [categories.slice(0,3),categories.slice(3,6),categories.slice(6,9)];
