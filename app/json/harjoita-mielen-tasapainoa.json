@@ -73,5 +73,12 @@
         "category": "Harjoita mielen tasapainoa",
         "videoId": "cWeJD3LEM8I",
         "belongsTo": "Rentous ja läsnäolo"
+    },{
+        "id": 14,
+        "name": "Parirentoutus",
+        "content": "Tässä harjoituksessa kuulet rentoutusohjeet ja musiikkia. Aloittakaa rentoutus istuutumalla tukevasti selkänojalliselle tuolille. Musiikkina on Tárregan Lágrima, Händelin Largo, Corellin Preludio ja Bachin Siciliano. Kesto on 10 ja puoli minuuttia.",
+        "category": "Harjoita mielen tasapainoa",
+        "videoId": "4z_Q1E18Nb0",
+        "belongsTo": "Rentous ja läsnäolo"
     }]
 }
