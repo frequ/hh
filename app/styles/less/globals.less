@@ -20,6 +20,10 @@ body {
     }
 }
 
+.italic{
+  font-style: italic
+}
+
 .source{
   display: block;
   color: #656565;
@@ -92,4 +96,23 @@ h1 {
         color: @mssBlue100;
         border: 2px solid @mssBlue100;
     }
+}
+
+/* Glyph, by Harry Roberts */
+hr.poem {
+    padding: 0;
+    border: none;
+    width: 15%;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.poem:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
 }
