@@ -25,6 +25,7 @@ angular.module('hhApp')
         $scope.parentEventsName = $scope.eventsName = data.name;
         $scope.parentEvents = $scope.events = data.events;
         $scope.parentEventsLead = $scope.eventsLead = $sce.trustAsHtml(data.lead);
+
       });
     };
     getCategory();
@@ -55,7 +56,7 @@ angular.module('hhApp')
 
         $scope.events = events;
         $scope.eventsName += " - "+subcategory.name;
-        $scope.eventsLead = subcategory.lead;
+        $scope.eventsLead = $sce.trustAsHtml(subcategory.lead);
         $scope.hasSubcategories = false;
 
     };
