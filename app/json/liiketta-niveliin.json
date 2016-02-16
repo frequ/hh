@@ -110,39 +110,39 @@
         },{
             "id": 12,
             "rouletteContent": true,
+            "name": "Lämmittelyjumppa seisten ja istuen",
+            "videoId": "vtxl5X81ltU",
+            "category": "Liikettä niveliin",
+            "belongsTo": "Veri kiertämään"
+        },{
+            "id": 13,
+            "rouletteContent": true,
             "name": "Taukojumppa seisten",
             "content": "Helppo kahdeksan liikkeen taukojumppa, jolla ehkäiset selkä- ja niska-hartiakipuja. Voit tehdä taukojumppaliikkeitä pienessäkin tilassa, työssä ja vapaa-ajalla.",
             "videoId": "3gGpRiV09uU",
             "category": "Liikettä niveliin",
             "belongsTo": "Veri kiertämään"
         },{
-            "id": 13,
+            "id": 14,
             "rouletteContent": true,
             "name": "Jenkkajumppa seisten, tarvittaessa tuki tuolista",
             "videoId": "vIZOskaYfLM",
             "category": "Liikettä niveliin",
             "belongsTo": "Tanssahdellen"
         },{
-            "id": 14,
+            "id": 15,
             "rouletteContent": true,
             "name": "Valssijumppa seisten, tarvittaessa tuki tuolista",
             "videoId": "0hE2RMqNFQo",
             "category": "Liikettä niveliin",
             "belongsTo": "Tanssahdellen"
         },{
-            "id": 15,
+            "id": 16,
             "rouletteContent": true,
             "name": "Joogalla letkeyttä ja notkeutta, seisten, välineenä tuoli",
             "videoId": "DZjmJyoz2Bg",
             "category": "Liikettä niveliin",
             "belongsTo": "Vetreyttä ja notkeutta joogalla"
-        },{
-            "id": 16,
-            "rouletteContent": true,
-            "name": "Lämmittelyjumppa seisten ja istuen",
-            "videoId": "vtxl5X81ltU",
-            "category": "Liikettä niveliin",
-            "belongsTo": "Veri kiertämään"
         },{
             "id": 17,
             "name": "Keppijumppa seisten, konttausasennossa ja makuulla, välineinä keppi ja jumppamatto",

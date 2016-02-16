@@ -2,8 +2,8 @@
     "name": "Ravinnolla terveyttä",
     "lead": "Ravinto vaikuttaa terveyteemme monipuolisesti. Elimistö tarvitsee riittävästi suojaravintoaineita ja sopivasti energiaa pysyäkseen terveenä ja toimintakykyisenä. Hyvä ruoka maistuu ja näyttää hyvältä, ja sopiva ruokavalio tuo hyvää mieltä eikä sen noudattaminen tee elämästä hankalaa.  Kokonaisuus ja hyvät valinnat pitkällä aikavälillä ratkaisevat.",
     "subcategories": [{
-        "name": "Keittoja",
-        "lead": "<p>Keitto on mainio ruoka, joka sopii moneen tilanteeseen, yhtälailla nopeaksi arkiruoaksi kuin alkuruoaksi juhla-aterian yhteydessä. Kevyestä kasviskeitosta saa ruokaisan ja proteiinipitoisen, kun sen lisänä syö esimerkiksi kananmunan tai raejuustoa. Myös linssejä ja papuja kannattaa käyttää.</p><p class=\"source\">Lähde: Jyväkorpi, Satu 2013: Syö muistaaksesi − ravitsemus aivoterveyden edistäjänä. Suomen muistiasiantuntijat ry.</p>"
+        "name": "Aamupaloja, välipaloja ja jälkiruokia",
+        "lead": "<p>Säännöllinen ruokailu on tärkeää. Jotta vireystaso pysyy yllä, on hyvä syödä jotakin kolmen tunnin välein. Välipalojenkin suhteen kannattaa tehdä terveellisiä valintoja. Hyviä kuidun lähteitä ovat erilaiset puurot, joihin voi lisätä pellavansiemeniä, kuivattuja hedelmiä ja marjoja. </p><p class=\"source\">Lähde: Jyväkorpi, Satu 2013: Syö muistaaksesi − ravitsemus aivoterveyden edistäjänä. Suomen muistiasiantuntijat ry.</p>"
     },{
         "name": "Kalaruokia",
         "lead": "<p>Kala on erinomainen proteiinin, omega-3-rasvahappojen ja D-vitamiinin lähde. Kalan syöminen hoitaa samanaikaisesti aivojen, sydämen ja luuston terveyttä.</p><p class=\"source\">Lähde: Jyväkorpi, Satu 2013: Syö muistaaksesi − ravitsemus aivoterveyden edistäjänä. Suomen muistiasiantuntijat ry.</p>"
@@ -14,14 +14,14 @@
         "name": "Salaatit ja kasvisruoat",
         "lead": "<p>Värikkäistä kasviksista koostuva salaatti sisältää runsaasti vitamiineja ja antioksidantteja. Salaatti voi olla kevyt vihersalaatti ruoan lisukkeena tai ruokaisa pääateria. Käyttämällä salaatinkastikkeena rypsi- tai camelinaöljyä saat samalla omega-3-rasvahappoja ja E-vitamiinia.</p><p class=\"source\">Lähde: Jyväkorpi, Satu 2013: Syö muistaaksesi − ravitsemus aivoterveyden edistäjänä. Suomen muistiasiantuntijat ry.</p>"
     },{
-        "name": "Aamupaloja, välipaloja ja jälkiruokia",
-        "lead": "<p>Säännöllinen ruokailu on tärkeää. Jotta vireystaso pysyy yllä, on hyvä syödä jotakin kolmen tunnin välein. Välipalojenkin suhteen kannattaa tehdä terveellisiä valintoja. Hyviä kuidun lähteitä ovat erilaiset puurot, joihin voi lisätä pellavansiemeniä, kuivattuja hedelmiä ja marjoja. </p><p class=\"source\">Lähde: Jyväkorpi, Satu 2013: Syö muistaaksesi − ravitsemus aivoterveyden edistäjänä. Suomen muistiasiantuntijat ry.</p>"
-    },{
-        "name": "Iltapaloja",
-        "lead": "<p>Tietyt ruoka-aineet sisältävät ainesosia, jotka edistävät elimistön rauhoittumista ja unta. Suosi illalla ruoka-aineita, jotka sisältävät hitaita hiilihydraatteja ja proteiineja. Tällaisia ovat esimerkiksi kalkkuna, broileri, maito, kotijuusto, kananmuna, pähkinät, koko- ja täysjyvätuotteet, linssit, auringonkukan- ja seesaminsiemenet, mantelit, pavut, täysjyväriisi sekä rasvattomat tai vähärasvaiset maitotuotteet.</p><p>Jotkut ruoka-aineet puolestaan lisäävät aivojen aktiviteettia ja valvottavat. Tällaisia ovat esimerkiksi pekoni, juusto, suklaa, munakoiso, kinkku, perunat, hapankaali, sokeri, makkara, pinaatti, tomaatti, sipuli, rasvaiset ja mausteiset ruuat sekä jälkiruuat. Vältä siis niiden nauttimista illalla. Unta voivat häiritä myös tupakointi ja kofeiinipitoiset juomat, kuten kahvi, alkoholipitoiset juomat, kuten viini, sekä sokeripitoiset juomat, kuten limonadi.</p>"
+        "name": "Keittoja",
+        "lead": "<p>Keitto on mainio ruoka, joka sopii moneen tilanteeseen, yhtälailla nopeaksi arkiruoaksi kuin alkuruoaksi juhla-aterian yhteydessä. Kevyestä kasviskeitosta saa ruokaisan ja proteiinipitoisen, kun sen lisänä syö esimerkiksi kananmunan tai raejuustoa. Myös linssejä ja papuja kannattaa käyttää.</p><p class=\"source\">Lähde: Jyväkorpi, Satu 2013: Syö muistaaksesi − ravitsemus aivoterveyden edistäjänä. Suomen muistiasiantuntijat ry.</p>"
     },{
         "name": "Smoothiet",
         "lead": "<p>Smoothie-juomia voi nauttia aamupalaksi, välipalaksi tai iltapalaksi. Ne ovat ravinteikkaita, näppäriä valmistaa ja helppoja nauttia. Aineksia voi vaihdella oman maun ja ruokavarastojen mukaan. Ja ei kun ravinteikkaita superjuomia nauttimaan − valmistuksessa vain mielikuvitus rajana!</p>"
+    },{
+        "name": "Iltapaloja",
+        "lead": "<p>Tietyt ruoka-aineet sisältävät ainesosia, jotka edistävät elimistön rauhoittumista ja unta. Suosi illalla ruoka-aineita, jotka sisältävät hitaita hiilihydraatteja ja proteiineja. Tällaisia ovat esimerkiksi kalkkuna, broileri, maito, kotijuusto, kananmuna, pähkinät, koko- ja täysjyvätuotteet, linssit, auringonkukan- ja seesaminsiemenet, mantelit, pavut, täysjyväriisi sekä rasvattomat tai vähärasvaiset maitotuotteet.</p><p>Jotkut ruoka-aineet puolestaan lisäävät aivojen aktiviteettia ja valvottavat. Tällaisia ovat esimerkiksi pekoni, juusto, suklaa, munakoiso, kinkku, perunat, hapankaali, sokeri, makkara, pinaatti, tomaatti, sipuli, rasvaiset ja mausteiset ruuat sekä jälkiruuat. Vältä siis niiden nauttimista illalla. Unta voivat häiritä myös tupakointi ja kofeiinipitoiset juomat, kuten kahvi, alkoholipitoiset juomat, kuten viini, sekä sokeripitoiset juomat, kuten limonadi.</p>"
     },{
         "name": "Tietoa ravinnosta",
         "lead": ""
@@ -153,151 +153,151 @@
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Aamupaloja, välipaloja ja jälkiruokia"
         },{
-            "id": 22,
+            "id": 21,
             "name": "Raejuustoherkku",
             "content": "<ul class=\"list\"><li>100 g raejuustoa</li><li>200 g mansikoita</li><li>1 nektariini/omena</li><li>1 banaani</li><li>pähkinöitä</li></ul><ol><li>Pilko hedelmät ja mansikat tarjoiluastiaan.</li><li>Lisää raejuusto ja ripottele joukkoon pähkinöitä.</li></ol>",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Iltapaloja"
         },{
-            "id": 23,
+            "id": 22,
             "name": "Puolukkapiristys",
             "content": "<ul class=\"list\"><li>4 dl maustamatonta jogurttia</li><li>1 dl puolukoita</li><li>2 rkl kauraleseitä tai hapankorppumuruja</li><li>2 rkl hunajaa</li><li>1 tl vaniljasokeria</li></ul><ol><li>Mittaa kaikki aineet kannuun ja soseuta sauvasekoittimella kuohkeaksi.</li><li>Anna makujen tasaantua muutama minuutti, jolloin leseet turpoavat ja juomasta tulee täyteläinen.</li></ol>",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Aamupaloja, välipaloja ja jälkiruokia"
         },{
-            "id": 24,
+            "id": 23,
             "name": "Marjasmoothie",
             "content": "<ul class=\"list\"><li>2½ dl tuoreita tai pakastemarjoja</li><li>5 dl maustamatonta jogurttia</li><li>1 banaani</li><li>2−3 rkl hunajaa</li><li>1 tl vaniljasokeria</li></ul><ol><li>Laita marjat, jogurtti, viipaloitu banaani, hunaja ja vaniljasokeri tehosekoittimeen. (Voit käyttää myös korkeareunasta kulhoa ja sauvasekoitinta.)</li><li>Käytä konetta, kunnes seos on kuohkeaa ja sileää. Tarkista makeus.</li><li>Nauti.</li></ol>",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Smoothiet"
         },{
-            "id": 26,
+            "id": 24,
             "name": "Puolukkasmoothie",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Smoothiet",
             "content": "<ul class=\"list\"><li>1 dl pakastepuolukoita</li><li>3 dl maustamatonta jogurttia tai piimää</li><li>1−2 rkl juoksevaa hunajaa</li><li>2 rkl kaura- tai ruisleseitä</li><li>ripaus kardemummaa (kardemumman sanotaan olevan muistia parantava mauste)</li><li>ripaus kanelia (kaneli sisältää mangaania, ja sen kanelin sanotaan olevan diabetesta ehkäisevä mauste)</li></ul><ol><li>Mittaa kaikki ainekset tehosekoittimeen.</li><li>Pyöräytä tasaiseksi juomaksi. Voit valmistaa juoman myös korkeareunaisessa kulhossa sauvasekoittimella.</li><li>Kaada juoma laseihin ja nauti.</li></ol>"
         },{
-            "id": 27,
+            "id": 25,
             "name": "Limellä terästetty kiivimalja (2 annosta)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Smoothiet",
             "content": "<ul class=\"list\"><li>3 kypsää kiivihedelmää</li><li>1 banaani</li><li>yhden limetin puristettu mehu</li><li>1 dl hedelmätäysmehua</li><li>3 rkl liotettuja pähkinöitä tai siemeniä</li></ul><ol><li>Kuori ja paloittele kiivihedelmät ja banaani. (Luomukiivit voi käyttää myös kuorineen, jolloin vitamiineja saa enemmän mutta maku hiukan karvas.)</li><li>Siirrä ainekset tehosekoittimeen tai korkeareunaiseen kulhoon.</li><li>Lisää limetinmehu, tuoremehu ja pähkinät/siemenet.</li><li>Pyöräytä tasaiseksi tehosekoittimessa tai sauvasekoittimella.</li><li>Jos juoma on liian paksua, lisää tilkka mehua.</li></ol>"
         },{
-            "id": 28,
+            "id": 26,
             "name": "Kurkkusmoothie (4 annosta)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Smoothiet",
             "content": "<ul class=\"list\"><li>1 kurkku</li><li>1 ruukullinen salaatti (mitä tummemman vihreää, sitä enemmän ravintoaineita)</li><li>4 rkl limetin tai sitruunan mehua</li><li>2 dl kivennäisvettä</li></ul><ol><li>Paloittele kurkku ja huuhtele salaatinlehdet.</li><li>Lisää ainekset tehosekoittimeen.</li><li>Soseuta tasaiseksi juomaksi. Ohenna tarvittaessa kivennäisvedellä.</li><li>Nauti juoma heti.</li></ol>"
         },{
-            "id": 30,
+            "id": 27,
             "name": "Mustikka-banaanismoothie (2 annosta)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Smoothiet",
             "content": "<ul class=\"list\"><li>1 banaani</li><li>2 dl pakastemustikoita</li><li>2 dl maustamatonta jogurttia (myös esim. Soya-jogurttivalmiste sopii hyvin)</li><li>2 dl (veri)appelsiinitäysmehua</li></ul><ol><li>Kuori ja paloittele banaani.</li><li>Laita kaikki ainekset tehosekoittimeen ja sekoita tasaiseksi juomaksi.</li><li>Tarjoa smoothie suuresta lasista.</li></ol>"
         },{
-            "id": 31,
+            "id": 28,
             "name": "Samettinen mangolassijuoma (4 annosta)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Smoothiet",
             "content": "<ul class=\"list\"><li>5 dl maustamatonta jogurttia</li><li>1 mango (myös pakastekuutiot käyvät)</li><li>½ tl kardemummaa (kardemumman sanotaan olevan muistia parantava mauste)</li><li>½ dl ruusuvettä (kaikki nesteet voi korvata myös esim. appelsiinimehulla)</li><li>noin 1–2 dl vettä tai maitoa</li><li>sahramia (sahramilla on erittäin korkea antioksidanttisuus)</li></ul><ol><li>Kuori ja pilko mango (tai käytä pakastekuutioita).</li><li>Mittaa kaikki ainekset tehosekoittimen kannuun ja anna pyöriä täydellä teholla parikymmentä sekuntia tai kunnes seos on tasaista.</li><li>Jos juomasta tulee liian paksua, lisää vettä ja pyöräytä vielä muutama kierros. Paksuus riippuu käyttämästäsi jogurtista.</li><li>Kaada laseihin, ripauta pinnalle kardemummaa ja sahramia.</li></ol><br/><b>Vinkki:</b> Ennen lassijuoman tekoa mango kannattaa laittaa kylmään, jotta rasvahapoista syntyvä öljyinen maku laimenee. Voit halutessasi myös lisätä sekaan jääpalan tai kaksi ennen tehosekoittimeen laittoa, jolloin saat sopivan viileän ja raikkaan juoman."
         },{
-            "id": 32,
+            "id": 29,
             "name": "Suklainen avokadosmoothie (2 annosta)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Smoothiet",
             "content": "<ul class=\"list\"><li>2 avokadoa</li><li>2 rkl sitruunamehua</li><li>1 tlk maitorahkaa (250 g)</li><li>3 dl maitoa, mantelimaitoa tai soijajuomaa</li><li>1 dl kaura-, ruis- tai tattarihiutaleita</li><li>2 rkl kauraleseitä tai leseseosta</li><li>3−6 palaa tummaa suklaata tai raakasuklaata rouheena</li><li>n. 2 rkl hunajaa</li><lh>Pinnalle:</lh><li>1−2 palaa tummaa suklaata rouheena</li><li>2 rkl kauraleseitä tai leseseosta</li></ul><ol><li>Laita kaikki aineet tehosekoittimen kulhoon tai syvään mittakannuun.</li><li>Soseuta tasaiseksi tehosekoittimella tai sauvasekoittimella.</li><li>Kaada smoothie korkeisiin laseihin tai mukeihin.</li><li>Ripottele pinnalle suklaarouhetta ja leseitä.</li></ol><br/><b>Vinkki: </b> Kun olet pilkkonut avokadon kannuun, lisää heti perään sitruunamehua, jotta avokado ei tummu. Jos haluat pillillä juotavaa juomaa, käytä suhteessa enemmän maitoa tai muuta nestettä."
         },{
-            "id": 33,
+            "id": 30,
             "name": "Vihersmoothie (1 annos)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Smoothiet",
             "content": "Vihersmoothie ei välttämättä ole maukkain smoothie, mutta terveellisyydessä sitä ei päihitetä. Valmistus on kätevää ja nopeaa. <ul class=\"list\"><li>1 porkkana (paloiteltu)</li><li>1 dl parsakaalia</li><li>2 kourallista pinaattia (mm. omega-3-rasvahappojen, tryptofaanin, ubikinonin, α-lipoiinihapon ja fenyylietyylialaniinin lähde</li><li>1 omena (paloiteltu)</li><li>2 appelsiinia (kuorittu ja paloiteltu)</li><li>appelsiinimehua</li></ul><ol><li>Laita tehosekoittimen kannuun tai syvään mittakannuun kaikki aineet.</li><li>Soseuta tasaiseksi tehosekoittimella tai sauvasekoittimella.</li><li>Kaada smoothie korkeisiin laseihin tai mukeihin. Nauti.</li></ol>"
         },{
-            "id": 34,
+            "id": 31,
             "name": "Lehtikaali-omenasmoothie (1 annos)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Smoothiet",
             "content": "<ul class=\"list\"><li>2 dl lehtikaalia (vain lehtiosat)</li><li>puolikas banaani</li><li>1 dl omenamehua</li><li>pieni puristus tuoretta sitruunamehua</li><li>1 dl jäitä</li></ul><ol><li>Laita tehosekoittimen kannuun tai syvään mittakannuun kaikki aineet.</li><li>Soseuta tasaiseksi tehosekoittimella tai sauvasekoittimella.</li><li>Nauti päivän tärkeä vihannesannos!</li></ol>"
         },{
-            "id": 35,
+            "id": 32,
             "name": "Ehdotuksia terveellisen smoothien aineksiksi",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Smoothiet",
             "content": "<p>Tässä luetellut ainekset tarjoavat elimistöllesi energiaa, hyviä rasvoja, vitamiineja, kivennäisaineita, antioksidantteja, entsyymejä ja proteiineja sekä tukevat emästasapainoa. Valitse aineksien määrä omien mieltymystesi mukaan. Voit vaihdella aineksia sen mukaan, mitä kotonasi on valmiina.</p><ul class=\"list\"><li>mustikoita</li><li>mansikoita</li><li>vesimelonia</li><li>cantaloupe- ja hunajamelonia</li><li>kiiviä</li><li>papaijaa tai mangoa</li><li>viherjauhetta</li><li>kurpitsan-, seesamin- ja auringonkukansiemeniä</li><li>makadamiapähkinöitä</li><li>manteleita</li><li>chiansiemeniä</li><li>maca- tai ashwagdhajauhetta</li><li>raakakaakoejauhetta</li><li>rahkaa</li><li>mausteeksi voi lorauttaa esim. mustaherukkajogurttia ja saskatoo-nmehua</li><li>kanelia</li><li>vettä</li></ul><p class=\"source\">Lähde: Piippo, Sinikka 2014: Mielen ruokaa. Ravinnon vaikutus muistiin, jaksamiseen ja henkisen tasapainoon. Minerva.</p>"
         },{
-            "id": 36,
+            "id": 33,
             "name": "Videoresepti: Kasvissosekeitto",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Kasvisruokia",
             "videoId": "EONis5T1K4w"
         },{
-            "id": 37,
+            "id": 34,
             "name": "Videoresepti: Katkarapu-perunamunakas",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Aamupaloja, välipaloja ja jälkiruokia",
             "videoId": "XnybKNMi1Fk"
         },{
-            "id": 38,
+            "id": 35,
             "name": "Videoresepti: Puuroja",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Aamupaloja, välipaloja ja jälkiruokia",
             "videoId": "E1vpcz1DZ7Q"
         },{
-            "id": 39,
+            "id": 36,
             "name": "Videoresepti: Seesam-silakat juurespedillä",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Kalaruokia",
             "videoId": "Zm0GPBe8No0"
         },{
-            "id": 40,
+            "id": 37,
             "name": "Videoresepti: Lohimedaljongit",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Kalaruokia",
             "videoId": "KiUM5pr6O0U"
         },{
-            "id": 41,
+            "id": 38,
             "name": "Videoresepti: Tofu-kasvisvokki",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Salaatit ja kasvisruoat",
             "videoId": "pHF7GtE8yTU"
         },{
-            "id": 42,
+            "id": 39,
             "name": "Tuoreilla yrteillä maustettu munakas (2 annosta)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Iltapaloja",
             "content": "<ul class=\"list\"><lh>Ainekset:</lh><li>4 luomukananmunaa tai vapaan kanan munaa</li><li>0,5 dl vettä tai maitoa</li><li>suolaa (lisää vasta lopussa tarvittaessa)</li><li>mustapippuria</li><li>1−2 rkl tuoretta basilikaa hienonnettuna ja/tai oreganoa</li><li>1−2 rkl rypsi- tai oliiviöljyä</li><li>n. 50−100 g kotijuustoa</li><li>kuorallinen rucolaa</li><li>ruokalusikallinen auringonkukan- ja/tai seesaminsiemeniä</li></ul> <ol><lh>Tee näin:</lh><li>Vatkaa kulhossa kananmunien rakenne rikki ja lisää joukkoon vesi tai maito, mustapippuria sekä basilika ja/ tai oregano.</li><li>Kuumenna paistinpannu ja lisää siihen öljy.</li><li>Kaada munamassa pannulle ja vedä lastalla kypsyvää seosta varovasti keskelle päin siten, että raaka seos valuu tasaisesti reunoille. Laske lieden lämpöä hieman.</li><li>Ripottele lähes hyytyneen munakkaan päälle murennettu kotijuusto, siemenet sekä rucola.</li><li>Lisää suolaa tarvittaessa (juusto sisältää suolaa ja antaa makua).</li><li>Puolita munakas ja tarjoile lehtisalaatin ja täysjyväleivän kera. Kyytipojaksi sopii kamomillatee tai lasi rasvatonta maitoa.</li></ol><ul class=\"list\"><lh>Vinkit:</lh><li>Kokeile munakkaaseen kotijuuston tilalle vaikkapa kreikkalaista fetajuustoa.</li><li>Älä paista munakasta liian kuumalla pannulla loppuun asti. Muuten munakkaan alapinta palaa, ennen kuin pinta hyytyy.</li></ul>"
         },{
-            "id": 43,
+            "id": 40,
             "name": "Lämmin broilerisalaatti",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Iltapaloja",
             "content": "<ul class=\"list\"><lh>Broileri:</lh><li>1 rkl rypsiöljyä</li><li>1 rkl sitruunamehua</li><li>1−2 tl currya</li><li>½ tl suolaa</li><li>170 g maustamattomia broilerinfileitä</li><lh>Salaatti:</lh><li>1 paprika</li><li>1 kurkku</li><li>½ rkl rypsiöljyä</li><li>1 jääsalaattia ruukussa tai ½ jää- ja ½ rooman- eli sidesalaattia ruukussa</li><li>1 dl oliiveja</li><lh>Koristeluun:</lh><li>sitruuna (viipaloituna)</li><ul class=\"list\"><ol><li>Sekoita öljy, sitruunamehu ja mausteet keskenään. Kaada ne broilerinleikkeiden päälle rasiaan. Kääntele leikkeitä niin, että ne maustuvat joka puolelta. Anna marinoitua jääkaapissa 2 tuntia, ota lihat huoneenlämpöön noin puoli tuntia ennen kypsentämistä. Voit myös pikamarinoida lihat huoneenlämmössä 1/2 tuntia.</li><li>Paloittele kurkut ja paprikat.</li><li>Huuhtele, kuivaa ja revi salaatit vadille. Levitä päälle kurkkuviipaleet, paprikat ja oliivit.</li><li>Paista pannulla broilerit kypsiksi, jäähdytä hieman.</li><li>Leikkaa broilerinfileet vinoviipaleiksi ja nosta ne salaatin päälle.</li><li>Koristele lämmin kanasalaatti sitruunaviipaleilla ja tarjoa broilerisalaatti täysjyväleivän kera.</li></ol>"
         },{
-            "id": 45,
+            "id": 41,
             "name": "Ruokakolmio kannustaa monipuolisiin valintoihin",
             "content": "<img src=\"img/ruokakolmio.png\"/>(Lähde: www.syohyvaa.fi)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Tietoa ravinnosta"
         },{
-            "id": 46,
+            "id": 42,
             "name": "Ruokavalion kehittäminen",
             "content": "<img src=\"img/ruokavalio.png\"/>(Lähde: www.syohyvaa.fi)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Tietoa ravinnosta"
         },{
-            "id": 47,
+            "id": 43,
             "name": "Mihin rasvaa tarvitaan?",
             "content": "<img src=\"img/rasva.png\"/>(Lähde: www.syohyvaa.fi)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Tietoa ravinnosta"
         },{
-            "id": 48,
+            "id": 44,
             "name": "Ruoka-annosten proteiinipitoisuuksia",
             "content": "<img src=\"img/proteiinit1.png\"/><hr/><img src=\"img/proteiinit2.png\"/>(Lähde: www.syohyvaa.fi)",
             "category": "Ravinnolla terveyttä",
             "belongsTo": "Tietoa ravinnosta"
         },{
-            "id": 49,
+            "id": 45,
             "name": "Hyvät ympäristövalinnat",
             "content": "<img src=\"img/ymparistoympyra.jpg\"/>(Lähde: www.syohyvaa.fi)",
             "category": "Ravinnolla terveyttä",
