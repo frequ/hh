@@ -1,4 +1,4 @@
-# Impulssi
+# Impulssi (web-version)
 
 https://www.miinasillanpaa.fi/impulssi
 
