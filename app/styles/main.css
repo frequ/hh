@@ -276,10 +276,10 @@ h1 {
 .modal-dialog .modal-body p {
   font-size: 1.5em;
 }
-.modal-dialog .modal-body p img {
+.modal-dialog .modal-body img {
   width: 100%;
 }
-.modal-dialog .modal-body p .button-stable {
+.modal-dialog .modal-body .button-stable {
   padding: 6px 12px;
   color: #333;
   border-color: #ccc;
@@ -287,21 +287,21 @@ h1 {
   border: 1px solid;
   border-radius: 4px;
 }
-.modal-dialog .modal-body p .button-stable:hover {
+.modal-dialog .modal-body .button-stable:hover {
   background-color: #e6e6e6;
   border-color: #adadad;
 }
-.modal-dialog .modal-body p .scroll-img {
+.modal-dialog .modal-body .scroll-img {
   display: block;
   width: 100%;
 }
-.modal-dialog .modal-body p .scroll-img img {
+.modal-dialog .modal-body .scroll-img img {
   width: 100%;
 }
-.modal-dialog .modal-body p ul lh {
+.modal-dialog .modal-body ul lh {
   font-weight: bold;
 }
-.modal-dialog .modal-body p ul li:last-child {
+.modal-dialog .modal-body ul li:last-child {
   margin-bottom: 20px;
 }
 .header {
