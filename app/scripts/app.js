@@ -2,12 +2,7 @@
 
 angular
     .module('hhApp', [
-        'ngAnimate',
-        'ngCookies',
-        'ngResource',
         'ngRoute',
-        'ngSanitize',
-        'ngTouch',
         'ui.bootstrap'
     ])
 
