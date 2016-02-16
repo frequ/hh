@@ -7,82 +7,82 @@
             "name": "Vinkkejä"
         }],
     "events": [{
-            "id": 1,
+            "id": 0,
             "name": "Vaikeuksien kohtaaminen (30 min)",
             "videoId": "bbNB5PkDg4U",
             "category": "Kokemuksia ja vinkkejä",
             "belongsTo": "Kokemuksia"
         },{
-            "id": 2,
+            "id": 1,
             "name": "Mikä sinut tekee onnelliseksi?",
             "videoId": "qfZkdJsKZfc",
             "category": "Kokemuksia ja vinkkejä",
             "belongsTo": "Kokemuksia"
         },{
-            "id": 3,
+            "id": 2,
             "name": "Ikääntyvän mielenterveys, gallup-tutkimus",
             "videoId": "ZOWjPdLsZbw",
             "category": "Kokemuksia ja vinkkejä",
             "belongsTo": "Kokemuksia"
         },{
-            "id": 4,
+            "id": 3,
             "name": "Tabletti − mitä iloa siitä on?",
             "videoId": "ABJU6HuCk_Q",
             "category": "Kokemuksia ja vinkkejä",
             "belongsTo": "Vinkkejä"
         },{
-            "id": 7,
+            "id": 4,
             "name": "Virtsankarkailu",
             "videoId": "dDQxIukvlQ0",
             "category": "Kokemuksia ja vinkkejä",
             "belongsTo": "Vinkkejä"
         },{
-            "id": 8,
+            "id": 5,
             "name": "Onko unilääkkeitä turvallista käyttää?",
             "videoId": "Ws3nBzaU6ik",
             "category": "Kokemuksia ja vinkkejä",
             "belongsTo": "Vinkkejä"
         },{
-            "id": 9,
+            "id": 6,
             "name": "Unelmat (30 min)",
             "videoId": "0u9OWC1CcJM",
             "category": "Kokemuksia ja vinkkejä",
             "belongsTo": "Kokemuksia"
         },{
-            "id": 10,
+            "id": 7,
             "name": "Miten löydän lahjani (28 min)",
             "videoId": "LY9lFko1a9w",
             "category": "Kokemuksia ja vinkkejä",
             "belongsTo": "Kokemuksia"
         },{
-            "id": 12,
+            "id": 8,
             "name": "Polku pois kaaoksesta",
             "content": "Pysähdy hetkeksi ja lähde näillä askeleilla eteenpäin.<ol><li>Hyvin suunniteltu on puoliksi tehty.</li><li>Kun aloittelet päivän töitä, tee ensiksi vaikeat työt.</li><li>Pidä ruokailutauot.</li><li>Rytmitä tekemistäsi vireystilan vaihtelujen mukaan.</li><li>Lepotauot tekevät hyvää.</li><li>Hoida yksi asia kerrallaan.</li><li>Huomioi tärkeysjärjestys.</li><li>Älä jaa ylisuurten töiden alle, jaa työt osiin.</li><li>Järjestä ja hallitse. ”Paikka kaikelle. Kaikki paikoilleen.”</li><li>Poista häiriötekijät ympäristöstäsi.</li><li>Käytä muistin apukeinoja. Allakka auttaa ja kalenteri muistuttaa.</li><li>Muistilaput eivät ole häpeä.</li><li>Looginen ajattelu auttaa.</li><li>Organisointi ja suunnittelu auttavat.</li><li>Poikki, pinoon ja piste.</li></ol>Mukaillen lähteestä: Hietanen, Marja – Erkinjuntti, Timo – Huovinen, Maarit 2005: Tunne muistisi. Käytä ja kehitä sitä. WSOY.",
             "category": "Kokemuksia ja vinkkejä",
             "belongsTo": "Vinkkejä"
         },{
-            "id": 13,
+            "id": 9,
             "name": "Video ystävyydestä",
             "videoId": "AJxzDR_n5mg",
             "content": "Vietä Vahvistava minuutti: kuuntele, kun Asta Juntunen puhuu ystävyydestä.",
             "category": "Kokemuksia ja vinkkejä",
             "belongsTo": "Kokemuksia"
         },{
-            "id": 14,
+            "id": 10,
             "name": "Video vanhenemisesta",
             "videoId": "482std_Vevs",
             "content": "Vietä Vahvistava minuutti: kuuntele, kun Vappu Taipale puhuu vanhenemisesta.",
             "category": "Kokemuksia ja vinkkejä",
             "belongsTo": "Kokemuksia"
         },{
-            "id":15,
+            "id":11,
             "name": "Video kiitollisuudesta",
             "videoId": "ENSMjx935-8",
             "content": "Vietä Vahvistava minuutti: kuuntele, kun Ilona Rauhala puhuu ilosta ja kiitollisuudesta.",
             "category": "Kokemuksia ja vinkkejä",
             "belongsTo": "Kokemuksia"
         },{
-            "id": 16,
+            "id": 12,
             "name": "Muistisairaus nuoren näkökulmasta",
             "content": "Milla on tavallinen opiskelijanuori. Koulupäivän jälkeen hän lähtee tapaamaan isäänsä, jolla on vasta todettu etenevä muistisairaus. He ovat sopineet tapaamisestaan aiemmin. Isä on unohtanut Millan tulon, eikä kaikki muutenkaan suju aivan suunnitelmien mukaan.",
             "videoId": "FsbcdF8_s4I",
