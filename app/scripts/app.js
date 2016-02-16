@@ -7,9 +7,17 @@ angular
     ])
 
     .run(function($rootScope, $location, $window){
-        $rootScope.$on('$routeChangeSuccess', function() {
-            $window.ga('send', 'pageview', { page: $location.url() });
-        });
+      $rootScope.$on('$routeChangeStart', function(event) {
+        if ($rootScope.modalInstance) {
+          $rootScope.modalInstance.dismiss('close');
+          $rootScope.modalInstance = null;
+          event.preventDefault();
+        }
+      })
+
+      $rootScope.$on('$routeChangeSuccess', function() {
+          $window.ga('send', 'pageview', { page: $location.url() });
+      });
     })
 
     .config(function ($routeProvider, $locationProvider) {
