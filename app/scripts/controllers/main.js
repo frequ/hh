@@ -12,7 +12,7 @@ angular.module('hhApp')
                   "id": category.replace(/ä/g, "a").replace(/ö/g, "o").split(' ').join('-').toLowerCase()
               };
 
-              if (category == "Elämysruletti") {
+              if (category === "Elämysruletti") {
                 obj.link = "#/ruletti";
               }else{
                 obj.link = "#/category/"+obj.id;
@@ -22,7 +22,7 @@ angular.module('hhApp')
           });
           $scope.splitMainCategories = [categories.slice(0,3),categories.slice(3,6),categories.slice(6,9)];
       });
-    }
+    };
     getCategories();
 
   });
