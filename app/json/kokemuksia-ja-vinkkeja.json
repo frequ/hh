@@ -8,13 +8,13 @@
         }],
     "events": [{
             "id": 0,
-            "name": "Mikä sinut tekee onnelliseksi?",
+            "name": "Mikä sinut tekee onnelliseksi? - Eloisa ikä tuotantoa",
             "videoId": "qfZkdJsKZfc",
             "category": "Kokemuksia ja vinkkejä",
             "belongsTo": "Kokemuksia"
         },{
             "id": 1,
-            "name": "Ikääntyvän mielenterveys, gallup-tutkimus",
+            "name": "Ikääntyvän mielenterveys, gallup-tutkimus - Eloisa ikä tuotantoa",
             "videoId": "ZOWjPdLsZbw",
             "category": "Kokemuksia ja vinkkejä",
             "belongsTo": "Kokemuksia"
