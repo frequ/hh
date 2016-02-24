@@ -84,10 +84,9 @@ h1 {
 }
 .row-mssray {
   text-align: center;
-  margin-top: 20px;
 }
 .row-mssray .img-mssray {
-  width: 50%;
+  width: 90%;
   padding: 25px;
 }
 /* Glyph, by Harry Roberts */
@@ -354,20 +353,19 @@ hr.poem:after {
 }
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
+  .row-mssray {
+    text-align: center;
+  }
+  .row-mssray .img-mssray {
+    width: 50%;
+    max-width: 500px;
+    padding: 25px;
+    margin-top: 30px;
+  }
   .modal-dialog .modal-body p .scroll-img img {
     width: 50%;
     float: left;
     padding-bottom: 20px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .row-mssray {
-    text-align: center;
-    margin-top: 20px;
-  }
-  .row-mssray .img-mssray {
-    width: 100%;
-    padding: 25px;
   }
 }
 .sprite {
