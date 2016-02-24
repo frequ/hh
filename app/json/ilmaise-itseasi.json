@@ -29,7 +29,7 @@
   },{
     "id": 3,
     "name": "Musiikilliset harjoitukset",
-    "content": "Musiikillisissa harjoituksissa kuulet laulua. Kun laulu pysähtyy, valitse vaihtoehdoista sanat, joilla laulu jatkuu. Onnea matkaan! <br/><button class=\"btn btn-default\" ng-click=\"openUrl()\">Siirry harjoitteisiin</button>",
+    "content": "Musiikillisissa harjoituksissa kuulet laulua. Kun laulu pysähtyy, valitse vaihtoehdoista sanat, joilla laulu jatkuu. Onnea matkaan! <br/><button class=\"{{buttonStyle}}\" ng-click=\"openUrl()\">Siirry harjoitteisiin</button>",
     "category": "Ilmaise itseäsi",
     "openUrl": "http://www.miinasillanpaa.fi/yhteinen-savel/#/games",
     "belongsTo": "Eläydy musiikkiin"

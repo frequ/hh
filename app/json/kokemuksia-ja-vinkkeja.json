@@ -60,14 +60,14 @@
         },{
             "id": 8,
             "name": "Hyväksyvä mieli -harjoitus",
-            "content": "Hyväksy ajatuksesi ja tunteesi – se, mitä et voi muuttaa. Tee harjoitus. <br/><button class=\"btn btn-default\" ng-click=\"openUrl()\">Aloita harjoitus tästä</button>",
+            "content": "Hyväksy ajatuksesi ja tunteesi – se, mitä et voi muuttaa. Tee harjoitus. <br/><button class=\"{{buttonStyle}}\" ng-click=\"openUrl()\">Aloita harjoitus tästä</button>",
             "openUrl": "http://oivamieli.fi/hyvaksyva_mieli_intro.php",
             "category": "Kokemuksia ja vinkkejä",
             "belongsTo": "Vinkkejä"
         },{
             "id": 9,
             "name": "Rikkinäinen automaatti -harjoitus",
-            "content": "Harjoittele hyväksyvää asennetta itseäsi ja tilannettasi kohtaan. <br/><button class=\"btn btn-default\" ng-click=\"openUrl()\">Tee Rikkinäinen automaatti -harjoitus tästä</button>",
+            "content": "Harjoittele hyväksyvää asennetta itseäsi ja tilannettasi kohtaan. <br/><button class=\"{{buttonStyle}}\" ng-click=\"openUrl()\">Tee Rikkinäinen automaatti -harjoitus tästä</button>",
             "openUrl": "http://oivamieli.fi/rikkinainen_automaatti.php",
             "category": "Kokemuksia ja vinkkejä",
             "belongsTo": "Vinkkejä"

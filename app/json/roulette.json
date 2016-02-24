@@ -72,37 +72,37 @@
 },{
     "id": 15,
     "name": "Tee rentoutushengitysharjoitus",
-    "content": "Harjoitus auttaa sinua rentoutumaan, kun tunnet stressiä, ahdistusta tai ärtymystä. <button class=\"btn btn-default\" ng-click=\"openUrl()\">Tee harjoitus tästä</button>",
+    "content": "Harjoitus auttaa sinua rentoutumaan, kun tunnet stressiä, ahdistusta tai ärtymystä. <button class=\"{{buttonStyle}}\" ng-click=\"openUrl()\">Tee harjoitus tästä</button>",
     "openUrl": "http://oivamieli.fi/rentoutushengitys.php"
 },{
     "id": 16,
     "name": "Tee Vuori-harjoitus",
-    "content": "Harjoitus on hyvä, kun tunnet olosi hajanaiseksi ja rauhattomaksi. <button class=\"btn btn-default\" ng-click=\"openUrl()\">Tee harjoitus tästä</button>",
+    "content": "Harjoitus on hyvä, kun tunnet olosi hajanaiseksi ja rauhattomaksi. <button class=\"{{buttonStyle}}\" ng-click=\"openUrl()\">Tee harjoitus tästä</button>",
     "openUrl": "http://oivamieli.fi/vuori.php"
 },{
     "id": 17,
     "name": "Ole läsnä",
-    "content": "Elä tässä hetkessä. Katso ja kuuntele johdanto tietoiseen läsnäoloon: <button class=\"btn btn-default\" ng-click=\"openUrl()\">Aloita tästä</button>",
+    "content": "Elä tässä hetkessä. Katso ja kuuntele johdanto tietoiseen läsnäoloon: <button class=\"{{buttonStyle}}\" ng-click=\"openUrl()\">Aloita tästä</button>",
     "openUrl": "http://oivamieli.fi/tietoinen_mieli_intro.php"
 },{
     "id": 18,
     "name": "Hyväksyvä mieli -harjoitus",
-    "content": "Hyväksy ajatuksesi ja tunteesi – se, mitä et voi muuttaa. Tee harjoitus. <button class=\"btn btn-default\" ng-click=\"openUrl()\">Aloita harjoitus tästä</button>",
+    "content": "Hyväksy ajatuksesi ja tunteesi – se, mitä et voi muuttaa. Tee harjoitus. <button class=\"{{buttonStyle}}\" ng-click=\"openUrl()\">Aloita harjoitus tästä</button>",
     "openUrl": "http://oivamieli.fi/hyvaksyva_mieli_intro.php"
 },{
     "id": 19,
     "name": "Tee Lehdet virrassa -harjoitus",
-    "content": "Huomaa, kuinka ajatuksesi tulevat ja menevät. <button class=\"btn btn-default\" ng-click=\"openUrl()\">Aloita tästä</button>",
+    "content": "Huomaa, kuinka ajatuksesi tulevat ja menevät. <button class=\"{{buttonStyle}}t\" ng-click=\"openUrl()\">Aloita tästä</button>",
     "openlUrl": "http://oivamieli.fi/lehdet_virrassa.php"
 },{
     "id": 20,
     "name": "Rikkinäinen automaatti -harjoitus",
-    "content": "Harjoittele hyväksyvää asennetta itseäsi ja tilannettasi kohtaan. <button class=\"btn btn-default\" ng-click=\"openUrl()\">Tee Rikkinäinen automaatti -harjoitus tästä</button>",
+    "content": "Harjoittele hyväksyvää asennetta itseäsi ja tilannettasi kohtaan. <button class=\"{{buttonStyle}}\" ng-click=\"openUrl()\">Tee Rikkinäinen automaatti -harjoitus tästä</button>",
     "openUrl": "http://oivamieli.fi/rikkinainen_automaatti.php"
 },{
     "id": 21,
     "name": "Matkustajat bussissa -harjoitus",
-    "content": "Huomaa ajatuksia, jotka estävät sinua toimimasta arvojesi mukaisesti. Matkustajat bussissa -harjoituksen avulla opit vapautumista ajatusten ylivallasta. <button class=\"btn btn-default\" ng-click=\"openUrl()\">Tee Matkustajat bussissa -harjoitus tästä</button>",
+    "content": "Huomaa ajatuksia, jotka estävät sinua toimimasta arvojesi mukaisesti. Matkustajat bussissa -harjoituksen avulla opit vapautumista ajatusten ylivallasta. <button class=\"{{buttonStyle}}\" ng-click=\"openUrl()\">Tee Matkustajat bussissa -harjoitus tästä</button>",
     "openUrl": "http://oivamieli.fi/matkustajat_bussissa.php"
 },{
     "id": 22,

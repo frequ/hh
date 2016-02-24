@@ -6,6 +6,7 @@ angular.module('hhApp')
     $scope.event = items;
     $scope.ytUrl = null;
     $scope.imagePath = 'img';
+    $scope.buttonStyle = "btn btn-default"
 
     if ($scope.event.videoId) {
         var protocol = location.protocol;
