@@ -139,9 +139,9 @@
     },{
         "id": 18,
         "rouletteContent": true,
-        "name": "Kulttuurista muistoja − eloisasti",
-        "videoId": "d0lflMTXCiA",
-        "content": "Varoitus: Eloisa ikä -ohjelmaan kuuluvan Etelä-Pohjanmaan Muistiyhdistyksen Kulttuurista muistoja -hankkeen laatima video sisältää elämyksiä ja yhteisöllisyyttä, jotka saattavat liikuttaa katsojaa. Etelä-Pohjanmaalla ennaltaehkäistään muistisairauksia tarjoamalla ikääntyville kulttuuri- ja taideharrastusmahdollisuuksia lähipalveluna. Taide-elämyksiä tarjotaan myös muistioireisille, muistisairaille ja heidän omaisilleen. Ei kun Letkis soimaan! <span class=\"source\">Lisätietoa www.muistiyhdistys.fi; www.eloisaika.fi.</span>",
+        "name": "Meiltä unohtui hääpäivä - Eloisa ikä tuotantoa",
+        "videoId": "gDc1CtZb-3E",
+        "content": "Herra ja rouva Eloisa juhlatuulella! <span class=\"source\">Lisätietoa www.muistiyhdistys.fi; www.eloisaika.fi.</span>",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"
     },{
@@ -154,7 +154,7 @@
     },{
         "id": 20,
         "rouletteContent": true,
-        "name": "Liikettä niveliin − Eloisa ikä",
+        "name": "Liikettä niveliin − Eloisa ikä tuotantoa",
         "videoId": "0KeWj9z4KVk",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"
