@@ -82,6 +82,14 @@ h1 {
   color: #002366;
   border: 2px solid #002366;
 }
+.row-mssray {
+  text-align: center;
+  margin-top: 20px;
+}
+.row-mssray .img-mssray {
+  width: 50%;
+  padding: 25px;
+}
 /* Glyph, by Harry Roberts */
 hr.poem {
   padding: 0;
@@ -350,6 +358,16 @@ hr.poem:after {
     width: 50%;
     float: left;
     padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .row-mssray {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .row-mssray .img-mssray {
+    width: 100%;
+    padding: 25px;
   }
 }
 .sprite {
