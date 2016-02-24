@@ -5,6 +5,7 @@ angular.module('hhApp')
 
     $scope.event = items;
     $scope.ytUrl = null;
+    $scope.imagePath = 'img';
 
     if ($scope.event.videoId) {
         var protocol = location.protocol;

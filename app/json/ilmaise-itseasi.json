@@ -24,7 +24,7 @@
   },{
     "id": 2,
     "name": "Musiikin tahtiin!",
-    "content": "Antaudu musiikin vietäväksi! Laita tanssittavaa mielimusiikkiasi soimaan ja irrottele oikein kunnolla yhden kappaleen ajan. Twistausta, sheikkausta, heilutusta, keinutusta, tuolitanssia tai humppaa… Anna mennä! <img src=\"img/tanssikuva.jpg\" \/>",
+    "content": "Antaudu musiikin vietäväksi! Laita tanssittavaa mielimusiikkiasi soimaan ja irrottele oikein kunnolla yhden kappaleen ajan. Twistausta, sheikkausta, heilutusta, keinutusta, tuolitanssia tai humppaa… Anna mennä! <img ng-src=\"{{imagePath}}/tanssikuva.jpg\" \/>",
     "belongsTo": "Eläydy musiikkiin"
   },{
     "id": 3,

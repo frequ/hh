@@ -68,7 +68,7 @@
 },{
     "id": 14,
     "name": "Musiikin tahtiin!",
-    "content": "Antaudu musiikin vietäväksi! Laita tanssittavaa mielimusiikkiasi soimaan ja irrottele oikein kunnolla yhden kappaleen ajan. Twistausta, sheikkausta, heilutusta, keinutusta, tuolitanssia tai humppaa… Anna mennä! <img src=\"img/tanssikuva.jpg\" \/>"
+    "content": "Antaudu musiikin vietäväksi! Laita tanssittavaa mielimusiikkiasi soimaan ja irrottele oikein kunnolla yhden kappaleen ajan. Twistausta, sheikkausta, heilutusta, keinutusta, tuolitanssia tai humppaa… Anna mennä! <img ng-src=\"{{imagePath}}/tanssikuva.jpg\" \/>"
 },{
     "id": 15,
     "name": "Tee rentoutushengitysharjoitus",
@@ -123,7 +123,7 @@
 },{
     "id": 26,
     "name": "Katso tarkasti!",
-    "content": "Tarkastele kuvia ja mieti, mitä ne voisivat sinulle kertoa:<div class=\"scroll-img\"><img src=\"img/fokus1.jpg\" \/><img src=\"img/fokus2.jpg\" \/><\/div>",
+    "content": "Tarkastele kuvia ja mieti, mitä ne voisivat sinulle kertoa:<div class=\"scroll-img\"><img ng-src=\"{{imagePath}}/fokus1.jpg\" \/><img ng-src=\"{{imagePath}}/fokus2.jpg\" \/><\/div>",
     "category": "Elämyksiä taiteesta ja kulttuurista"
 },{
     "id": 27,
