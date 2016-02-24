@@ -13,7 +13,7 @@ angular
           $rootScope.modalInstance = null;
           event.preventDefault();
         }
-      })
+      });
 
       $rootScope.$on('$routeChangeSuccess', function() {
           $window.ga('send', 'pageview', { page: $location.url() });
