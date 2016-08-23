@@ -34,110 +34,96 @@
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2006/09/08/muhokselta-manilaan"
     },{
         "id": 3,
-        "name": "Näin teet vihdan tai vastan",
-        "content": "",
-        "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet",
-        "skipModalTo": "http://areena.yle.fi/1-2874211"
-    },{
-        "id": 4,
-        "name": "Saunominen",
-        "content": "",
-        "category": "Elämyksiä löytämään",
-        "belongsTo": "Perinteet",
-        "skipModalTo": "http://areena.yle.fi/1-2214411"
-    },{
-        "id": 5,
         "name": "Postiautolla läpi Suomen 1960-luvulla",
         "content": "",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Historia",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2010/10/13/matka-lapi-suomen"
     },{
-        "id": 6,
+        "id": 4,
         "name": "Postiautolla läpi kesäisen Keski-Suomen 1960-luvulla",
         "content": "",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Historia",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2015/03/10/postiautolla-halki-kesaisen-keski-suomen"
     },{
-        "id": 7,
+        "id": 5,
         "name": "Postiauton ikkunasta Pohjanmaa 1970-luvulla",
         "content": "",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Historia",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2013/05/02/pohjanmaata-postiauton-ikkunasta-1970-luvulla"
     },{
-        "id": 8,
+        "id": 6,
         "name": "Metsästysharrastuksesta",
         "content": "Suomalaiskansalliseen perinteeseen kuuluvan metsästysharrastuksen turvaamiseksi tarvitaan metsästyksen valvontaa. Tämä video valottaa riistanhoitoyhdistysten metsästyksenvartijoiden valintaa, koulutusta ja toimenkuvaa sekä yhteistyötä eri viranomaisten kanssa.",
         "videoId": "X5bMzEXrJto",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Luonnonantimet"
     },{
-        "id": 9,
+        "id": 7,
         "name": "Metsä - Suomalainen sielunmaisema",
         "content": "",
         "videoId": "xBfAk0CzxB4",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Luonnonantimet"
     },{
-        "id": 10,
+        "id": 8,
         "name": "Kalastus 50-luvulla",
         "content": "",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Luonnonantimet",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2009/11/18/lohi-kay-pyydykseen"
     },{
-        "id": 11,
+        "id": 9,
         "name": "Rysäkalastus",
         "content": "",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Luonnonantimet",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2010/05/26/rysalla-lahnaa-ja-saalis-savustumaan"
     },{
-        "id": 12,
+        "id": 10,
         "name": "Hirvenmetsästys",
         "content": "",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Luonnonantimet",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2012/09/27/hirvimetsalla-utsjoen-eramaassa-ja-helvetin-aarella"
     },{
-        "id": 13,
+        "id": 11,
         "name": "Karhunkaataja muistelee",
         "content": "",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Luonnonantimet",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2010/04/21/vanha-karhunkaataja-muistelee"
     },{
-        "id": 14,
+        "id": 12,
         "name": "Muikku 60-luvulla",
         "content": "",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Luonnonantimet",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2009/06/04/puruvedesta-nousee-muikkua-talvella-1964"
     },{
-        "id": 15,
+        "id": 13,
         "name": "Isovanhemmuus mummojen näkökulmasta (28 min)",
         "videoId": "64zcaydalYY",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Perinteet"
     },{
-        "id": 16,
+        "id": 14,
         "name": "Kyläilykulttuuri (28 min)",
         "videoId": "OmNNL820sLo",
         "content": "Pirren olkkarissa vieraina Tuula Juntunen ja Sanna Lajunen.",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Perinteet"
     },{
-        "id": 17,
+        "id": 15,
         "rouletteContent": true,
         "name": "Katso tarkasti!",
         "content": "Tarkastele kuvia ja mieti, mitä ne voisivat sinulle kertoa: <div class=\"scroll-img\"><img ng-src=\"{{imagePath}}/fokus1.jpg\" /><img ng-src=\"{{imagePath}}/fokus2.jpg\" /></div>",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"
     },{
-        "id": 18,
+        "id": 16,
         "rouletteContent": true,
         "name": "Meiltä unohtui hääpäivä - Eloisa ikä tuotantoa",
         "videoId": "gDc1CtZb-3E",
@@ -145,46 +131,46 @@
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"
     },{
-        "id": 19,
+        "id": 17,
         "name": "Runosaappaat esittää: Keltaista ja Harmaata - Eloisa ikä tuotantoa",
         "videoId": "qqj2kuLdE9Y",
         "content": "Videolla runoja esittävät lausuntaryhmä Runosaappaiden jäsenet Carita Koskenmäki, Sinikka Koskinen, Tuula Kuoppala, Antti Luoma, Mervi Mäki, Tuula Mutka, Irma Palomäki, Eero Peltoniemi ja Leena Vaismaa. Runosaappaat on Kulttuurista muistoja -hankkeen järjestämää ryhmätoimintaa. Etelä-Pohjanmaan Muistiyhdistyksen Kulttuurista muistoja -hankkeessa työskentelevät Katja Kujala ja Manar Ameli. Hanke on mukana Raha-automaattiyhdistyksen Eloisa ikä -avustusohjelmassa.",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"
     },{
-        "id": 20,
+        "id": 18,
         "rouletteContent": true,
         "name": "Liikettä niveliin − Eloisa ikä tuotantoa",
         "videoId": "0KeWj9z4KVk",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"
     },{
-        "id": 21,
+        "id": 19,
         "name": "Kuvataide harrastuksena (29 min)",
         "videoId": "kdwP_FZpk9w",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"
     },{
-        "id": 22,
+        "id": 20,
         "name": "Kirjallisuus (kirjat, kirjoittaminen, harrastajateatteri) (28 min)",
         "videoId": "-PIbWD9dcWI",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"
     },{
-        "id": 23,
+        "id": 21,
         "name": "Jouluaskartelua koululaisten kanssa (39 min)",
         "videoId": "s_o8jkVMCHs",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Taide ja kulttuuri"
     },{
-        "id": 24,
+        "id": 22,
         "name": "Lasse Viren -selostus (70-luvulta)",
         "content": "",
         "category": "Elämyksiä löytämään",
         "belongsTo": "Historia",
         "skipModalTo": "http://yle.fi/aihe/artikkeli/2009/03/30/lasse-viren-ja-10-000-mn-draama-munchenissa"
     },{
-        "id": 25,
+        "id": 23,
         "name": "MM-95",
         "content": "",
         "category": "Elämyksiä löytämään",
