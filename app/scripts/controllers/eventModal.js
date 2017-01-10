@@ -26,7 +26,7 @@ angular.module('hhApp')
 
     $scope.openUrl = function () {
       if ($scope.event.openUrl) {
-        var win = $window.open($scope.event.openUrl, '_blank');
+        var win = $window.open($scope.event.openUrl, '_self');
   			win.focus();
       }
 
